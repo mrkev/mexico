@@ -4,6 +4,7 @@ import { useEffect, useRef, useState } from "react";
 import { MapContainer, Marker, Popup, TileLayer } from "react-leaflet";
 import { simplifySparqlResults, SparqlValueRaw } from "wikibase-sdk";
 import wdk from "wikibase-sdk/wikidata.org";
+import { iconFor } from "./icons";
 
 const position: LatLngTuple = [20.6752, -103.3473];
 
@@ -12,109 +13,6 @@ const ZAPOPAN = "Q147402";
 const TLAQUEPAQUE = "Q155277";
 const TONALA = "Q2677554";
 const TLAJOMULCO = "Q20249211";
-
-// Source - https://stackoverflow.com/a
-// Posted by arnaudambro, modified by community. See post 'Timeline' for change history
-// Retrieved 2025-12-08, License - CC BY-SA 4.0
-
-function svgIcon(name: string) {
-  return new L.Icon({
-    iconUrl: `/${name}.svg`,
-    iconRetinaUrl: `/${name}.svg`,
-    iconSize: new L.Point(20, 20),
-    className: "leaflet-div-icon",
-  });
-}
-
-const iconStore = svgIcon("store");
-const iconMuseum = svgIcon("landmark");
-const iconTrees = svgIcon("trees");
-const iconPlace = svgIcon("map-pin");
-const iconStation = svgIcon("train-fill");
-const iconMonument = svgIcon("arch");
-const templeMonument = svgIcon("church");
-const iconDisaster = svgIcon("message-exclamation");
-const iconStadium = svgIcon("stadium");
-const iconBooks = svgIcon("book-copy");
-const iconEvent = svgIcon("calendar-star");
-const iconSchool = svgIcon("graduation-cap");
-const iconRadioTower = svgIcon("radio-tower");
-
-const icon = {
-  amphora: svgIcon("amphora"),
-  bus: svgIcon("bus"),
-};
-
-function any(set: Set<string>, ...strs: string[]) {
-  for (const str of strs) {
-    if (set.has(str)) {
-      return true;
-    }
-  }
-  return false;
-}
-
-function iconFor(set: Set<string>) {
-  if (any(set, "railway station", "tram stop")) {
-    return iconStation;
-  } else if (any(set, "museum", "palace")) {
-    return iconMuseum;
-  } else if (any(set, "park", "urban park")) {
-    return iconTrees;
-  } else if (set.has("market")) {
-    return iconStore;
-  } else if (any(set, "monument", "sculpture", "statue")) {
-    return iconMonument;
-  } else if (any(set, "library")) {
-    return iconBooks;
-  } else if (any(set, "sports season")) {
-    return iconEvent;
-  } else if (
-    any(
-      set,
-      "university",
-      "Catholic university",
-      "Jesuit university",
-      "academic department",
-      "academic institution",
-      "public university"
-    )
-  ) {
-    return iconSchool;
-  } else if (any(set, "radio station")) {
-    return iconRadioTower;
-  } else if (
-    any(
-      set,
-      "temple",
-      "church building",
-      "religious building",
-      "minor basilica"
-    )
-  ) {
-    return templeMonument;
-  } else if (any(set, "disaster", "conflagration", "structure fire")) {
-    return iconDisaster;
-  } else if (
-    any(
-      set,
-      "stadium",
-      "association football venue",
-      "bullring",
-      "first class bullring",
-      "sports venue",
-      "arena"
-    )
-  ) {
-    return iconStadium;
-  } else if (any(set, "archaeological site")) {
-    return icon.amphora;
-  } else if (any(set, "bus station")) {
-    return icon.bus;
-  }
-
-  return iconPlace;
-}
 
 const CITY_ADMIN_QUERY = (cityid: string) => `
 SELECT DISTINCT 
@@ -236,7 +134,7 @@ export function App() {
   return (
     <>
       <div className="flex flex-col" style={{ width: 200 }}>
-        hello world
+        hello worldd
         <button
           onClick={() => {
             console.log(wktToGeoJSON(`POINT(-400004.3 60000.1)`));
