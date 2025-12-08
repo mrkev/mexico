@@ -1,109 +1,59 @@
-import { useState } from "react";
-import GitHubButton from "react-github-btn";
-import { add } from "../../NEW_LIB/src";
+import { useEffect, useRef, useState } from "react";
+import L, { LatLngTuple } from "leaflet";
+import { GeoJSON, MapContainer, TileLayer } from "react-leaflet";
 
-const FOLDER_STRUCTURE = `
-docs/             built website, configure GH Pages to point here
-packages/
-  NEW_LIB/        source for the library
-  site/           source code for the site
-`.trim();
+const position: LatLngTuple = [21.52694133828857, -101.3454508286864];
 
 export function App() {
   const [count, setCount] = useState(0);
+  const mapDivRef = useRef<HTMLDivElement | null>(null);
+
+  useEffect(() => {
+    const mapDiv = mapDivRef.current;
+    if (!mapDiv) {
+      return;
+    }
+
+    const map = L.map(mapDiv).setView([51.505, -0.09], 13);
+    return () => {
+      map.off();
+      map.remove();
+    };
+  }, []);
 
   return (
-    <main className="space-y-6">
-      <h1 className="text-4xl font-bold m-0 mb-2">
-        Simple
-        <br />
-        Vite + React + TypeScript
-        <br />
-        Monorepo Library Template
-      </h1>
-
-      <p>
-        <a href="https://github.com/mrkev/new-react-ts-monorepo-lib">
-          github.com/mrkev/new-react-ts-monorepo-lib
-        </a>
-      </p>
-
-      <span className="flex flex-row gap-2 justify-center">
-        <GitHubButton
-          href="https://github.com/mrkev/new-react-ts-monorepo-lib"
-          data-color-scheme="no-preference: light; light: light; dark: dark;"
-          data-icon="octicon-star"
-          data-size="large"
-          aria-label="Star mrkev/new-react-ts-monorepo-lib on GitHub"
+    <>
+      <div
+        style={{
+          width: 200,
+        }}
+      >
+        hello world
+      </div>
+      {/* <div id="map"></div> */}
+      <div
+        style={{
+          minWidth: 200,
+          flexGrow: 1,
+        }}
+      >
+        <MapContainer
+          center={position}
+          zoom={5}
+          scrollWheelZoom={false}
+          style={{ height: "100vh" }}
         >
-          Star
-        </GitHubButton>
-        <GitHubButton
-          href="https://github.com/mrkev/new-react-ts-monorepo-lib/generate"
-          data-color-scheme="no-preference: light; light: light; dark: dark;"
-          data-icon="octicon-repo-template"
-          data-size="large"
-          aria-label="Use this template mrkev/new-react-ts-monorepo-lib on GitHub"
-        >
-          Use this template
-        </GitHubButton>
-      </span>
-
-      {/* Instructions */}
-      <h2 className="text-left text-2xl font-semibold mb-2">Getting Started</h2>
-      <ol className="text-left ps-5 mt-2 space-y-1 list-decimal list-inside">
-        <li>
-          Click <code>"Use this template"</code> above
-        </li>
-        <li>Clone the repo you created</li>
-        <li>Use these scripts:</li>
-        {/* Scripts */}
-        <ul className="text-left ps-5 space-y-1 list-disc list-inside">
-          <li>
-            <code>build</code> builds this website and the library ready for
-            publishing
-          </li>
-          <li>
-            <code>build:site</code> builds only the website
-          </li>
-          <li>
-            <code>build:lib</code> builds only the library
-          </li>
-          <li>
-            <code>dev</code> starts the dev server
-          </li>
-        </ul>
-        <li>Edit away! Folder structure:</li>
-        <pre className="text-left bg-black text-white py-2 px-4">
-          {FOLDER_STRUCTURE}
-        </pre>
-      </ol>
-      <hr />
-
-      <p className="text-left">
-        This sample library just adds two numbers.
-        <br />
-        The latest version is always built with the site:
-      </p>
-      <button onClick={() => setCount((count) => add(count, 1))}>
-        add one: {count}
-      </button>
-
-      <hr />
-
-      <p className="flex flex-row gap-2 justify-center">
-        <a href="https://aykev.dev/">Kevin Chavez</a> ·
-        <a href="https://twitter.com/aykev">@aykev</a> ·
-        <GitHubButton
-          href="https://github.com/mrkev"
-          data-color-scheme="no-preference: light; light: light; dark: dark;"
-          data-size="large"
-          data-show-count="true"
-          aria-label="Follow @mrkev on GitHub"
-        >
-          Follow @mrkev
-        </GitHubButton>
-      </p>
-    </main>
+          <TileLayer
+            attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+            url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+          />
+          {/* <TileLayer
+        attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+        url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+      /> */}
+          {/* <GeoJSON data={undefined} /> */}
+        </MapContainer>
+      </div>
+    </>
   );
 }

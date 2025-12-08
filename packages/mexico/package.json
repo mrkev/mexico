@@ -1,15 +1,15 @@
 {
-  "name": "NEW_LIB",
+  "name": "mexico",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "main": "./dist/NEW_LIB.umd.cjs",
-  "module": "./dist/NEW_LIB.js",
+  "main": "./dist/mexico.umd.cjs",
+  "module": "./dist/mexico.js",
   "types": "./dist/index.d.ts",
   "exports": {
     ".": {
-      "import": "./dist/NEW_LIB.js",
-      "require": "./dist/NEW_LIB.umd.cjs"
+      "import": "./dist/mexico.js",
+      "require": "./dist/mexico.umd.cjs"
     }
   },
   "files": [
@@ -25,7 +25,7 @@
     "vite": "^7.1.11",
     "vite-plugin-dts": "^4.5.4"
   },
-  "NEW_LIB TODO": "FILL THESE FIELDS BELOW",
+  "mexico TODO": "FILL THESE FIELDS BELOW",
   "homepage": "",
   "keywords": [],
   "repository": {
