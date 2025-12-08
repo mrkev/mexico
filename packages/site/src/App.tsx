@@ -1,111 +1,207 @@
-import { Position, wktToGeoJSON } from "betterknown";
-import L, { LatLngTuple } from "leaflet";
+import { wktToGeoJSON } from "betterknown";
+import L, { LatLngTuple, svg } from "leaflet";
 import { useEffect, useRef, useState } from "react";
 import { MapContainer, Marker, Popup, TileLayer } from "react-leaflet";
-import {
-  SimplifiedSparqlValueGroup,
-  simplifySparqlResults,
-  SparqlValueRaw,
-} from "wikibase-sdk";
+import { simplifySparqlResults, SparqlValueRaw } from "wikibase-sdk";
 import wdk from "wikibase-sdk/wikidata.org";
 
 const position: LatLngTuple = [20.6752, -103.3473];
 
-const GUADALAJARA_QUERY = `
-SELECT DISTINCT
-  ?item
-  ?itemLabel
-  ?coord
-  ?enArticle
+const GUADALAJARA = "Q9022";
+const ZAPOPAN = "Q147402";
+const TLAQUEPAQUE = "Q155277";
+const TONALA = "Q2677554";
+const TLAJOMULCO = "Q20249211";
+
+// Source - https://stackoverflow.com/a
+// Posted by arnaudambro, modified by community. See post 'Timeline' for change history
+// Retrieved 2025-12-08, License - CC BY-SA 4.0
+
+function svgIcon(name: string) {
+  return new L.Icon({
+    iconUrl: `/${name}.svg`,
+    iconRetinaUrl: `/${name}.svg`,
+    iconSize: new L.Point(20, 20),
+    className: "leaflet-div-icon",
+  });
+}
+
+const iconStore = svgIcon("store");
+const iconMuseum = svgIcon("landmark");
+const iconTrees = svgIcon("trees");
+const iconPlace = svgIcon("map-pin");
+const iconStation = svgIcon("train-fill");
+const iconMonument = svgIcon("arch");
+const templeMonument = svgIcon("church");
+const iconDisaster = svgIcon("message-exclamation");
+const iconStadium = svgIcon("stadium");
+const iconBooks = svgIcon("book-copy");
+const iconEvent = svgIcon("calendar-star");
+const iconSchool = svgIcon("graduation-cap");
+const iconRadioTower = svgIcon("radio-tower");
+
+const icon = {
+  amphora: svgIcon("amphora"),
+  bus: svgIcon("bus"),
+};
+
+function any(set: Set<string>, ...strs: string[]) {
+  for (const str of strs) {
+    if (set.has(str)) {
+      return true;
+    }
+  }
+  return false;
+}
+
+function iconFor(set: Set<string>) {
+  if (any(set, "railway station", "tram stop")) {
+    return iconStation;
+  } else if (any(set, "museum", "palace")) {
+    return iconMuseum;
+  } else if (any(set, "park", "urban park")) {
+    return iconTrees;
+  } else if (set.has("market")) {
+    return iconStore;
+  } else if (any(set, "monument", "sculpture", "statue")) {
+    return iconMonument;
+  } else if (any(set, "library")) {
+    return iconBooks;
+  } else if (any(set, "sports season")) {
+    return iconEvent;
+  } else if (
+    any(
+      set,
+      "university",
+      "Catholic university",
+      "Jesuit university",
+      "academic department",
+      "academic institution",
+      "public university"
+    )
+  ) {
+    return iconSchool;
+  } else if (any(set, "radio station")) {
+    return iconRadioTower;
+  } else if (
+    any(
+      set,
+      "temple",
+      "church building",
+      "religious building",
+      "minor basilica"
+    )
+  ) {
+    return templeMonument;
+  } else if (any(set, "disaster", "conflagration", "structure fire")) {
+    return iconDisaster;
+  } else if (
+    any(
+      set,
+      "stadium",
+      "association football venue",
+      "bullring",
+      "first class bullring",
+      "sports venue",
+      "arena"
+    )
+  ) {
+    return iconStadium;
+  } else if (any(set, "archaeological site")) {
+    return icon.amphora;
+  } else if (any(set, "bus station")) {
+    return icon.bus;
+  }
+
+  return iconPlace;
+}
+
+const CITY_ADMIN_QUERY = (cityid: string) => `
+SELECT DISTINCT 
+  ?item 
+  ?itemLabel 
+  (GROUP_CONCAT(DISTINCT ?instanceOfLabel; separator="$$") AS ?instanceOfLabels)
+  ?coord 
+  ?enArticle 
   ?esArticle
 WHERE {
-  # Guadalajara, Jalisco (the city)
-  VALUES ?guadalajara { wd:Q9022 }
-
-  # Items related to Guadalajara by location/affiliation
-  {
-    ?item wdt:P131|wdt:P276|wdt:P159|wdt:P19 ?guadalajara.
-  }
-  UNION
-  # Related by topic/part-of/name
-  {
-    ?item wdt:P921|wdt:P1448|wdt:P361 ?guadalajara.
-  }
-
-  # Geographic coordinates
-  ?item wdt:P625 ?coord.
-
-  # English Wikipedia article (optional)
+  VALUES ?city { wd:${cityid} }
+  
+  ?item wdt:P625 ?coord ;
+        wdt:P131* ?city .
+  
   OPTIONAL {
     ?enArticle schema:about ?item ;
                schema:inLanguage "en" ;
                schema:isPartOf <https://en.wikipedia.org/> .
   }
-
-  # Spanish Wikipedia article (optional)
   OPTIONAL {
     ?esArticle schema:about ?item ;
                schema:inLanguage "es" ;
                schema:isPartOf <https://es.wikipedia.org/> .
   }
-
-  # Only keep results with at least ONE of the two languages
+  
   FILTER(BOUND(?enArticle) || BOUND(?esArticle))
-
-  SERVICE wikibase:label { bd:serviceParam wikibase:language "en,es". }
+  
+  OPTIONAL { 
+    ?item wdt:P31 ?instanceOf .
+    ?instanceOf rdfs:label ?instanceOfLabel .
+    FILTER(LANG(?instanceOfLabel) = "en")
+  }
+  
+  SERVICE wikibase:label { 
+    bd:serviceParam wikibase:language "es,en" . 
+    ?item rdfs:label ?itemLabel .
+  }
 }
+GROUP BY ?item ?itemLabel ?coord ?enArticle ?esArticle
 ORDER BY ?itemLabel
-LIMIT 200
 `;
 
-const GUADALAJARA_QUERY_2 = `
-SELECT DISTINCT
-  ?item
-  (COALESCE(?itemLabelES, ?itemLabelEN) AS ?itemLabel)
-  ?coord
-  ?enArticle
-  ?esArticle
-WHERE {
-  VALUES ?guadalajara { wd:Q9022 }    # Guadalajara, Jalisco
+const queryAll = async (places: string[]) => {
+  const results = await Promise.all(
+    places.map(async (place) => {
+      const url = wdk.sparqlQuery(CITY_ADMIN_QUERY(place));
+      const response = await fetch(url); // required User-Agent set by the browser
+      const entries = simplifySparqlResults(await response.json()).map(
+        ({
+          coord,
+          instanceOfLabels,
+          esArticle,
+          enArticle,
+          item: { value, label },
+        }) => {
+          const coords = expectPoint(wktToGeoJSON(String(coord)))
+            .coordinates as [number, number];
+          return [
+            String(value),
+            {
+              id: value,
+              label,
+              instanceOf: new Set(
+                String(instanceOfLabels)
+                  .split("$$")
+                  .filter((x) => x !== "")
+              ),
+              // for some reason this is fliped in the geojson format?
+              coord: [coords[1], coords[0]],
+              esArticle: esArticle as string | undefined,
+              enArticle: enArticle as string | undefined,
+            },
+          ] as const;
+        }
+      );
+      return entries;
+    })
+  );
 
-  # Must have coordinates
-  ?item wdt:P625 ?coord .
-
-  # Item is inside Guadalajara's administrative area
-  ?item wdt:P131* ?guadalajara .
-
-  # Get Spanish label if available
-  OPTIONAL { ?item rdfs:label ?itemLabelES .
-             FILTER(lang(?itemLabelES) = "es") }
-
-  # Get English label if available
-  OPTIONAL { ?item rdfs:label ?itemLabelEN .
-             FILTER(lang(?itemLabelEN) = "en") }
-
-  # English Wikipedia article (optional)
-  OPTIONAL {
-    ?enArticle schema:about ?item ;
-               schema:inLanguage "en" ;
-               schema:isPartOf <https://en.wikipedia.org/> .
-  }
-
-  # Spanish Wikipedia article (optional)
-  OPTIONAL {
-    ?esArticle schema:about ?item ;
-               schema:inLanguage "es" ;
-               schema:isPartOf <https://es.wikipedia.org/> .
-  }
-
-  # Keep only entities with at least one Wikipedia article
-  FILTER(BOUND(?enArticle) || BOUND(?esArticle))
-}
-ORDER BY ?itemLabel
-
-`;
+  return new Map(results.flat());
+};
 
 type Place = {
   id: SparqlValueRaw;
   label: SparqlValueRaw;
+  instanceOf: Set<string>;
   coord: readonly [number, number];
   esArticle: string | undefined;
   enArticle: string | undefined;
@@ -151,26 +247,13 @@ export function App() {
         </button>
         <button
           onClick={async () => {
-            const url = wdk.sparqlQuery(GUADALAJARA_QUERY_2);
-            const response = await fetch(url); // required User-Agent set by the browser
-            const result = simplifySparqlResults(await response.json()).map(
-              ({ coord, esArticle, enArticle, item: { value, label } }) => {
-                const coords = expectPoint(wktToGeoJSON(String(coord)))
-                  .coordinates as [number, number];
-                return [
-                  String(value),
-                  {
-                    id: value,
-                    label,
-                    // for some reason this is fliped in the geojson format?
-                    coord: [coords[1], coords[0]],
-                    esArticle: esArticle as string | undefined,
-                    enArticle: enArticle as string | undefined,
-                  },
-                ] as const;
-              }
-            );
-
+            const result = await queryAll([
+              GUADALAJARA,
+              TLAQUEPAQUE,
+              ZAPOPAN,
+              TONALA,
+              // TLAJOMULCO,
+            ]);
             setPlaces(new Map(result));
             console.log("result", result);
           }}
@@ -194,9 +277,12 @@ export function App() {
           ]}
         >
           {[...places.entries()].map(([id, place]) => {
-            console.log("HERE");
             return (
-              <Marker key={id} position={place.coord as [number, number]}>
+              <Marker
+                key={id}
+                position={place.coord as [number, number]}
+                icon={iconFor(place.instanceOf)}
+              >
                 <Popup>
                   {place.label}{" "}
                   {place.esArticle && (
@@ -208,6 +294,22 @@ export function App() {
                     <a href={place.enArticle} target="_blank" rel="noreferrer">
                       en
                     </a>
+                  )}
+                  {window.location.hostname === "localhost" && (
+                    <>
+                      <button
+                        onClick={() => console.log(place, place.instanceOf)}
+                      >
+                        debug
+                      </button>
+                      <a
+                        href={`https://www.wikidata.org/wiki/${id}`}
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        data
+                      </a>
+                    </>
                   )}
                 </Popup>
               </Marker>
