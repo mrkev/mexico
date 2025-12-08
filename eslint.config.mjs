@@ -47,6 +47,7 @@ export default defineConfig([
       ...react.configs["jsx-runtime"].rules,
       "react/no-unescaped-entities": "off",
       "react/no-children-prop": "off",
+      "@typescript-eslint/no-unused-vars": "off",
       "react-refresh/only-export-components": [
         "warn",
         { allowConstantExport: true },
