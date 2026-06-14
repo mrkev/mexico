@@ -1,0 +1,343 @@
+[
+  {
+    "id": "Q569227",
+    "label": "Ocotelulco",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site",
+      "altepetl",
+      "former settlement"
+    ]
+  },
+  {
+    "id": "Q133844233",
+    "label": "Federación de Centro América (1921-1922)",
+    "start": 1921,
+    "end": 1922,
+    "instanceOf": [
+      "historical country"
+    ]
+  },
+  {
+    "id": "Q285658",
+    "label": "Primer Imperio Mexicano",
+    "start": 1822,
+    "end": 1823,
+    "instanceOf": [
+      "historical country"
+    ]
+  },
+  {
+    "id": "Q11702638",
+    "label": "Reino de Xalisco",
+    "start": null,
+    "end": 1532,
+    "instanceOf": [
+      "historical country"
+    ]
+  },
+  {
+    "id": "Q7443295",
+    "label": "Segunda República Federal",
+    "start": 1846,
+    "end": 1863,
+    "instanceOf": [
+      "historical country"
+    ]
+  },
+  {
+    "id": "Q17523945",
+    "label": "Toltec Empire",
+    "start": 674,
+    "end": 1122,
+    "instanceOf": [
+      "historical country"
+    ]
+  },
+  {
+    "id": "Q796925",
+    "label": "Tlatelolco",
+    "start": 1337,
+    "end": 1473,
+    "instanceOf": [
+      "altepetl"
+    ]
+  },
+  {
+    "id": "Q16631036",
+    "label": "señorío de Tonalá",
+    "start": null,
+    "end": 1541,
+    "instanceOf": [
+      "historical country"
+    ]
+  },
+  {
+    "id": "Q9063401",
+    "label": "Provincias Unidas del Centro de América",
+    "start": 1823,
+    "end": 1824,
+    "instanceOf": [
+      "historical country"
+    ]
+  },
+  {
+    "id": "Q7701277",
+    "label": "Tepeticpac",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "altepetl"
+    ]
+  },
+  {
+    "id": "Q7314427",
+    "label": "República de Baja California",
+    "start": 1853,
+    "end": 1854,
+    "instanceOf": [
+      "satellite state",
+      "historical country",
+      "historical unrecognized state"
+    ]
+  },
+  {
+    "id": "Q614072",
+    "label": "Señorío de Tlaxcala",
+    "start": 1348,
+    "end": 1520,
+    "instanceOf": [
+      "historical country"
+    ]
+  },
+  {
+    "id": "Q796347",
+    "label": "Xaltocan",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "city-state"
+    ]
+  },
+  {
+    "id": "Q242",
+    "label": "Belice",
+    "start": 1981,
+    "end": null,
+    "instanceOf": [
+      "country",
+      "Commonwealth realm",
+      "sovereign state"
+    ]
+  },
+  {
+    "id": "Q5788450",
+    "label": "República Restaurada",
+    "start": 1867,
+    "end": 1876,
+    "instanceOf": [
+      "historical country"
+    ]
+  },
+  {
+    "id": "Q2741089",
+    "label": "República Mayor de Centroamérica",
+    "start": 1896,
+    "end": 1898,
+    "instanceOf": [
+      "historical country"
+    ]
+  },
+  {
+    "id": "Q288200",
+    "label": "Supremo Poder Ejecutivo",
+    "start": 1823,
+    "end": 1824,
+    "instanceOf": [
+      "provisional government",
+      "historical country"
+    ]
+  },
+  {
+    "id": "Q2645185",
+    "label": "Coatlichan",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "altepetl"
+    ]
+  },
+  {
+    "id": "Q20022018",
+    "label": "señorío de Etzatlán",
+    "start": null,
+    "end": 1524,
+    "instanceOf": [
+      "historical country"
+    ]
+  },
+  {
+    "id": "Q1650771",
+    "label": "Otumba",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site",
+      "altepetl"
+    ]
+  },
+  {
+    "id": "Q371334",
+    "label": "Segundo Imperio Mexicano",
+    "start": 1864,
+    "end": 1867,
+    "instanceOf": [
+      "client state",
+      "historical country"
+    ]
+  },
+  {
+    "id": "Q384562",
+    "label": "Quiahuiztlán",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site",
+      "altepetl"
+    ]
+  },
+  {
+    "id": "Q17630035",
+    "label": "señorío de Autlán",
+    "start": null,
+    "end": 1530,
+    "instanceOf": [
+      "historical country"
+    ]
+  },
+  {
+    "id": "Q18387824",
+    "label": "Reino de Petén Itzá",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "kingdom"
+    ]
+  },
+  {
+    "id": "Q794210",
+    "label": "Triple Alianza",
+    "start": 1428,
+    "end": 1521,
+    "instanceOf": [
+      "historical country"
+    ]
+  },
+  {
+    "id": "Q21003537",
+    "label": "Reino de Zaachila",
+    "start": 1363,
+    "end": 1523,
+    "instanceOf": [
+      "historical country"
+    ]
+  },
+  {
+    "id": "Q124841467",
+    "label": "Cuautitlan Kingdom",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "kingdom",
+      "realm",
+      "historical country"
+    ]
+  },
+  {
+    "id": "Q13695",
+    "label": "Tenochtitlán",
+    "start": 1325,
+    "end": 1521,
+    "instanceOf": [
+      "city-state",
+      "altepetl",
+      "big city"
+    ]
+  },
+  {
+    "id": "Q3991974",
+    "label": "Tizatlán",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "altepetl",
+      "former settlement"
+    ]
+  },
+  {
+    "id": "Q9067808",
+    "label": "Reino de Colliman",
+    "start": null,
+    "end": 1523,
+    "instanceOf": [
+      "historical country"
+    ]
+  },
+  {
+    "id": "Q5068621",
+    "label": "Chalco-Atenco",
+    "start": null,
+    "end": 1521,
+    "instanceOf": [
+      "altepetl"
+    ]
+  },
+  {
+    "id": "Q1109279",
+    "label": "Primera República Federal",
+    "start": 1823,
+    "end": 1835,
+    "instanceOf": [
+      "historical country",
+      "historical period"
+    ]
+  },
+  {
+    "id": "Q6104762",
+    "label": "Reino de Zacapu",
+    "start": 1124,
+    "end": 1285,
+    "instanceOf": [
+      "historical country"
+    ]
+  },
+  {
+    "id": "Q2121220",
+    "label": "reino quiché de Q'umarkaj",
+    "start": null,
+    "end": 1524,
+    "instanceOf": [
+      "archaeological site",
+      "historical country"
+    ]
+  },
+  {
+    "id": "Q11007532",
+    "label": "Malacachtépec Momoxco",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "altepetl"
+    ]
+  },
+  {
+    "id": "Q16631016",
+    "label": "señorío de Coinan",
+    "start": 1210,
+    "end": 1531,
+    "instanceOf": [
+      "historical country"
+    ]
+  }
+]

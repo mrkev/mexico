@@ -1,0 +1,1193 @@
+[
+  {
+    "id": "Q21070997",
+    "label": "Russian Guatemalan",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "ethnic group"
+    ]
+  },
+  {
+    "id": "Q12542",
+    "label": "aztecas",
+    "start": 1200,
+    "end": 1523,
+    "instanceOf": [
+      "civilization",
+      "historical ethnic group"
+    ]
+  },
+  {
+    "id": "Q844750",
+    "label": "Cultura zapoteca",
+    "start": -6700,
+    "end": 1201,
+    "instanceOf": [
+      "civilization",
+      "Mesoamerican civilization"
+    ]
+  },
+  {
+    "id": "Q1257826",
+    "label": "Lenca",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "ethnolinguistic group"
+    ]
+  },
+  {
+    "id": "Q2804638",
+    "label": "Chuj",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "ethnic group"
+    ]
+  },
+  {
+    "id": "Q3485378",
+    "label": "Cultura clovis",
+    "start": -9050,
+    "end": -8850,
+    "instanceOf": [
+      "archaeological culture"
+    ]
+  },
+  {
+    "id": "Q110921228",
+    "label": "Asirios en México",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "ethnic group"
+    ]
+  },
+  {
+    "id": "Q2442920",
+    "label": "Poqomchí",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "ethnic group"
+    ]
+  },
+  {
+    "id": "Q338230",
+    "label": "Acaxees",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "ethnic group"
+    ]
+  },
+  {
+    "id": "Q12626526",
+    "label": "Acul-Vinac",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "tribe"
+    ]
+  },
+  {
+    "id": "Q1402468",
+    "label": "Lipán",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "ethnic group"
+    ]
+  },
+  {
+    "id": "Q1783866",
+    "label": "Kopane",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "Indigenous peoples of the Americas"
+    ]
+  },
+  {
+    "id": "Q118745492",
+    "label": "Magdalena Mixiuhca",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "indigenous people"
+    ]
+  },
+  {
+    "id": "Q6011515",
+    "label": "mexicanos mestizos",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "ethnic group",
+      "aspect in a geographic region"
+    ]
+  },
+  {
+    "id": "Q132686292",
+    "label": "mexicanos guatemaltecos",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "ethnic group",
+      "ethnic minority group"
+    ]
+  },
+  {
+    "id": "Q187897",
+    "label": "cultura tolteca",
+    "start": 650,
+    "end": 1168,
+    "instanceOf": [
+      "indigenous people"
+    ]
+  },
+  {
+    "id": "Q4690180",
+    "label": "Afro-Guatemalan",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "ethnic group"
+    ]
+  },
+  {
+    "id": "Q5677550",
+    "label": "Inmigración española en Honduras",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "ethnic group",
+      "human migration"
+    ]
+  },
+  {
+    "id": "Q18222640",
+    "label": "Comunidad de Jajam Isaac Chiver",
+    "start": 1930,
+    "end": null,
+    "instanceOf": [
+      "Jewish community"
+    ]
+  },
+  {
+    "id": "Q5695583",
+    "label": "Hinas",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "ethnic group"
+    ]
+  },
+  {
+    "id": "Q1429504",
+    "label": "kikapú",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "ethnic group"
+    ]
+  },
+  {
+    "id": "Q5037580",
+    "label": "Caracoles",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "ethnic group"
+    ]
+  },
+  {
+    "id": "Q16578789",
+    "label": "Inmigración británica en Belice",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "ethnic group",
+      "human migration"
+    ]
+  },
+  {
+    "id": "Q16578799",
+    "label": "Inmigración china en Honduras",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "ethnic community"
+    ]
+  },
+  {
+    "id": "Q597620",
+    "label": "Xixime",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "indigenous people"
+    ]
+  },
+  {
+    "id": "Q597695",
+    "label": "Códices mesoamericanos",
+    "start": null,
+    "end": null,
+    "instanceOf": []
+  },
+  {
+    "id": "Q16622993",
+    "label": "pueblos indígenas de Honduras",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "ethnic group"
+    ]
+  },
+  {
+    "id": "Q16640584",
+    "label": "Tlahuica",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "ethnic group",
+      "civilization"
+    ]
+  },
+  {
+    "id": "Q202860",
+    "label": "Tolupanes",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "ethnic group"
+    ]
+  },
+  {
+    "id": "Q2920817",
+    "label": "Chupícuaro",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site",
+      "archaeological culture"
+    ]
+  },
+  {
+    "id": "Q137211201",
+    "label": "Belizean Jewry",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "ethnic community"
+    ]
+  },
+  {
+    "id": "Q5856625",
+    "label": "Fase Guazapa",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological culture"
+    ]
+  },
+  {
+    "id": "Q212080",
+    "label": "Monte Alto",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological culture"
+    ]
+  },
+  {
+    "id": "Q50001",
+    "label": "italianos",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "ethnic group",
+      "human population",
+      "people"
+    ]
+  },
+  {
+    "id": "Q4867851",
+    "label": "vasco-mexicanos",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "ethnic group",
+      "ethnic minority group"
+    ]
+  },
+  {
+    "id": "Q5916382",
+    "label": "Inmigración británica en México",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "ethnic group"
+    ]
+  },
+  {
+    "id": "Q5916393",
+    "label": "Inmigración checa en México",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "ethnic group"
+    ]
+  },
+  {
+    "id": "Q5916399",
+    "label": "Inmigración chilena en México",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "ethnic group",
+      "human migration"
+    ]
+  },
+  {
+    "id": "Q5916503",
+    "label": "Inmigración estadounidense en Guatemala",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "ethnic group"
+    ]
+  },
+  {
+    "id": "Q5916524",
+    "label": "gitanos en México",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "ethnic group"
+    ]
+  },
+  {
+    "id": "Q5916617",
+    "label": "Inmigración peruana en México",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "ethnic group"
+    ]
+  },
+  {
+    "id": "Q5916651",
+    "label": "Inmigración salvadoreña en Guatemala",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "diaspora or migration by origin and host country"
+    ]
+  },
+  {
+    "id": "Q5916670",
+    "label": "Inmigración turca en México",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "ethnic group",
+      "human migration"
+    ]
+  },
+  {
+    "id": "Q5916678",
+    "label": "inmigración venezolana en México",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "ethnic group",
+      "human migration"
+    ]
+  },
+  {
+    "id": "Q4874633",
+    "label": "Baymen",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "ethnic community"
+    ]
+  },
+  {
+    "id": "Q2379418",
+    "label": "Cultura del centro de Veracruz",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological culture"
+    ]
+  },
+  {
+    "id": "Q1130354",
+    "label": "Pueblo huasteco",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "ethnic group"
+    ]
+  },
+  {
+    "id": "Q826591",
+    "label": "Nahuas",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "ethnic group"
+    ]
+  },
+  {
+    "id": "Q1131790",
+    "label": "Pueblo cora",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "ethnic group"
+    ]
+  },
+  {
+    "id": "Q5945746",
+    "label": "Inmigración polaca en México",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "ethnic group"
+    ]
+  },
+  {
+    "id": "Q9008557",
+    "label": "Inmigración griega en México",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "ethnic group",
+      "human migration"
+    ]
+  },
+  {
+    "id": "Q5973536",
+    "label": "Inmigración japonesa en México",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "ethnic group",
+      "human migration"
+    ]
+  },
+  {
+    "id": "Q1137419",
+    "label": "quiché",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "ethnic group"
+    ]
+  },
+  {
+    "id": "Q1258619",
+    "label": "Guamare",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "indigenous peoples of Mexico"
+    ]
+  },
+  {
+    "id": "Q39056887",
+    "label": "Mascogos",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "ethnic community"
+    ]
+  },
+  {
+    "id": "Q21955739",
+    "label": "Inmigración belga en Guatemala",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "diaspora or migration by origin and host country"
+    ]
+  },
+  {
+    "id": "Q6012171",
+    "label": "Mexicaneros",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "ethnic group"
+    ]
+  },
+  {
+    "id": "Q15055500",
+    "label": "Inmigración libanesa en México",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "ethnic group"
+    ]
+  },
+  {
+    "id": "Q6022567",
+    "label": "Inmigración india en México",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "ethnic group"
+    ]
+  },
+  {
+    "id": "Q56316706",
+    "label": "San Lorenzo Huipulco",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "indigenous people",
+      "human settlement"
+    ]
+  },
+  {
+    "id": "Q56316839",
+    "label": "Santa María Magdalena Petlacalco",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "indigenous people",
+      "human settlement"
+    ]
+  },
+  {
+    "id": "Q623215",
+    "label": "pueblo mixteco",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "ethnic group",
+      "Mesoamerican civilization"
+    ]
+  },
+  {
+    "id": "Q1940883",
+    "label": "Pueblo mixe",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "ethnic group"
+    ]
+  },
+  {
+    "id": "Q9086005",
+    "label": "Tepehuanes del norte",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "ethnic group"
+    ]
+  },
+  {
+    "id": "Q9086016",
+    "label": "Tepehuanes del sur",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "ethnic group"
+    ]
+  },
+  {
+    "id": "Q165320",
+    "label": "Cucapá",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "Indigenous peoples of the Americas",
+      "ethnic group",
+      "Native Americans in the United States",
+      "federally recognized Native American tribe in the United States"
+    ]
+  },
+  {
+    "id": "Q1275920",
+    "label": "Ixil",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "ethnic group"
+    ]
+  },
+  {
+    "id": "Q6118839",
+    "label": "San Gregorio Atlapulco",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "village",
+      "indigenous people"
+    ]
+  },
+  {
+    "id": "Q27688756",
+    "label": "Mochó",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "ethnic group"
+    ]
+  },
+  {
+    "id": "Q6151129",
+    "label": "Totorames",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "ethnic group"
+    ]
+  },
+  {
+    "id": "Q1550826",
+    "label": "Ópata",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "ethnic group"
+    ]
+  },
+  {
+    "id": "Q45914",
+    "label": "Pueblos mayenses",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "ethnic group",
+      "Mesoamerican civilization"
+    ]
+  },
+  {
+    "id": "Q39486",
+    "label": "Sol Negro",
+    "start": null,
+    "end": null,
+    "instanceOf": []
+  },
+  {
+    "id": "Q2065318",
+    "label": "Pech",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "ethnic group"
+    ]
+  },
+  {
+    "id": "Q20016888",
+    "label": "Inmigración keniana en México",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "ethnic group"
+    ]
+  },
+  {
+    "id": "Q3172654",
+    "label": "Tectiteco",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "ethnic group"
+    ]
+  },
+  {
+    "id": "Q11301904",
+    "label": "Halyikwamai",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "tribe"
+    ]
+  },
+  {
+    "id": "Q1561442",
+    "label": "Achire",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "indigenous peoples of Mexico"
+    ]
+  },
+  {
+    "id": "Q3182469",
+    "label": "Mokaya",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "historical ethnic group"
+    ]
+  },
+  {
+    "id": "Q2025212",
+    "label": "Tepehuacho",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "ethnic group"
+    ]
+  },
+  {
+    "id": "Q107301856",
+    "label": "indígenas de Chiapas",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "ethnic group"
+    ]
+  },
+  {
+    "id": "Q2563726",
+    "label": "Mam",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "ethnic group"
+    ]
+  },
+  {
+    "id": "Q5147959",
+    "label": "Inmigración colombiana en México",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "ethnic group",
+      "human migration"
+    ]
+  },
+  {
+    "id": "Q2686890",
+    "label": "Inmigración libanesa en México",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "ethnic group"
+    ]
+  },
+  {
+    "id": "Q5780534",
+    "label": "Comunidad Hebrea de Guadalajara",
+    "start": 2003,
+    "end": null,
+    "instanceOf": [
+      "qahal"
+    ]
+  },
+  {
+    "id": "Q101406199",
+    "label": "Inmigracion Italiana en El Salvador",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "human migration",
+      "ethnic community"
+    ]
+  },
+  {
+    "id": "Q16111708",
+    "label": "Jova",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "ethnic group"
+    ]
+  },
+  {
+    "id": "Q46998231",
+    "label": "Yucatec Maya people",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "ethnic group"
+    ]
+  },
+  {
+    "id": "Q5192813",
+    "label": "Cuitlatec",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "ethnic group"
+    ]
+  },
+  {
+    "id": "Q25405424",
+    "label": "Guaimas",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "ethnic minority group"
+    ]
+  },
+  {
+    "id": "Q7232733",
+    "label": "Inmigración portuguesa en México",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "ethnic group",
+      "human migration"
+    ]
+  },
+  {
+    "id": "Q3307681",
+    "label": "Mexica",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "ethnic group"
+    ]
+  },
+  {
+    "id": "Q924646",
+    "label": "Inmigración coreana en México",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "ethnic group",
+      "human migration"
+    ]
+  },
+  {
+    "id": "Q2664567",
+    "label": "Kiliwa",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "ethnic group"
+    ]
+  },
+  {
+    "id": "Q928333",
+    "label": "Inmigración española en México",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "ethnic group"
+    ]
+  },
+  {
+    "id": "Q12642374",
+    "label": "Soba",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "tribe"
+    ]
+  },
+  {
+    "id": "Q5393915",
+    "label": "inmigración nórdica en México",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "ethnic group"
+    ]
+  },
+  {
+    "id": "Q131607850",
+    "label": "El Sur Resiste",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "indigenous people",
+      "nonprofit organization",
+      "peasant movement"
+    ]
+  },
+  {
+    "id": "Q7406499",
+    "label": "Inmigración salvadoreña en México",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "diaspora or migration by origin and host country"
+    ]
+  },
+  {
+    "id": "Q28503175",
+    "label": "Inmigración alemana en Honduras",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "ethnic group",
+      "human migration"
+    ]
+  },
+  {
+    "id": "Q5448620",
+    "label": "Inmigración filipina en México",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "ethnic group",
+      "human migration"
+    ]
+  },
+  {
+    "id": "Q1675074",
+    "label": "Inmigración italiana en México",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "ethnic group",
+      "human migration"
+    ]
+  },
+  {
+    "id": "Q2143064",
+    "label": "Kumiai",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "ethnic group"
+    ]
+  },
+  {
+    "id": "Q18223618",
+    "label": "Inmigración armenia en México",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "national minority",
+      "ethnic community"
+    ]
+  },
+  {
+    "id": "Q11953802",
+    "label": "Q11953802",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "ethnic group"
+    ]
+  },
+  {
+    "id": "Q3514796",
+    "label": "Tojolabal people",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "ethnic group"
+    ]
+  },
+  {
+    "id": "Q5502256",
+    "label": "Inmigración francesa en México",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "ethnic group",
+      "human migration"
+    ]
+  },
+  {
+    "id": "Q6432058",
+    "label": "Inmigración coreana en Guatemala",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "ethnic group"
+    ]
+  },
+  {
+    "id": "Q18354676",
+    "label": "Mexicanos asiáticos",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "ethnic group"
+    ]
+  },
+  {
+    "id": "Q18357154",
+    "label": "inmigración alemana en Guatemala",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "ethnic group",
+      "human migration",
+      "diaspora or migration by origin and host country"
+    ]
+  },
+  {
+    "id": "Q18418478",
+    "label": "Inmigración catalana en México",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "diaspora or migration by origin and host country"
+    ]
+  },
+  {
+    "id": "Q6463237",
+    "label": "La Jolla Complex",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological culture"
+    ]
+  },
+  {
+    "id": "Q12627529",
+    "label": "Balamihá",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "tribe"
+    ]
+  },
+  {
+    "id": "Q12630782",
+    "label": "Eudeve",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "tribe"
+    ]
+  },
+  {
+    "id": "Q12631580",
+    "label": "Gocoyome",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "tribe"
+    ]
+  },
+  {
+    "id": "Q12632320",
+    "label": "Hizo",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "tribe"
+    ]
+  },
+  {
+    "id": "Q429921",
+    "label": "rarámuris",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "ethnic group"
+    ]
+  },
+  {
+    "id": "Q12638353",
+    "label": "Nihaib",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "tribe"
+    ]
+  },
+  {
+    "id": "Q12638765",
+    "label": "Ocuilteco",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "indigenous people"
+    ]
+  },
+  {
+    "id": "Q16110762",
+    "label": "Pima Bajo",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "ethnic group"
+    ]
+  },
+  {
+    "id": "Q12642921",
+    "label": "Subinha",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "tribe"
+    ]
+  },
+  {
+    "id": "Q12643401",
+    "label": "Tegui",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "tribe"
+    ]
+  },
+  {
+    "id": "Q12643456",
+    "label": "Tepoca",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "tribe"
+    ]
+  },
+  {
+    "id": "Q12645456",
+    "label": "Yécora",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "ethnic group"
+    ]
+  },
+  {
+    "id": "Q5555720",
+    "label": "Inmigración uruguaya en México",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "diaspora or migration by origin and host country"
+    ]
+  },
+  {
+    "id": "Q6826131",
+    "label": "inmigración mexicana en el Reino Unido",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "ethnic group",
+      "human migration"
+    ]
+  },
+  {
+    "id": "Q116795888",
+    "label": "civilización teotihuacana",
+    "start": 1,
+    "end": 700,
+    "instanceOf": [
+      "culture",
+      "ancient civilization",
+      "Mesoamerican civilization",
+      "social group",
+      "style",
+      "historical country"
+    ]
+  },
+  {
+    "id": "Q147401",
+    "label": "Pueblo zapoteco",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "ethnic group"
+    ]
+  }
+]

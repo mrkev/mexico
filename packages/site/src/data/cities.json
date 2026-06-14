@@ -1,0 +1,5208 @@
+[
+  {
+    "id": "Q29470850",
+    "label": "El Temblor",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q5741508",
+    "label": "Calotmul (sitio arqueológico)",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q24024799",
+    "label": "Acrópolis Central, Tikal",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q7692767",
+    "label": "Tecoaque",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q14623034",
+    "label": "Zona Arqueológica de Tlatelolco",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q2574289",
+    "label": "Tepetlaoxtoc",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q753895",
+    "label": "El Tajín",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q7698757",
+    "label": "Temple of the Cross Complex",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q1094421",
+    "label": "Cival",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "human settlement",
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q24051755",
+    "label": "Señorío de Tlaxcala (Huey Altepetl Tlaxcallān)",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "destroyed city"
+    ]
+  },
+  {
+    "id": "Q602376",
+    "label": "Pomoná",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q3733804",
+    "label": "Etlatongo",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q1104936",
+    "label": "Cobá",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q5761051",
+    "label": "Centro Ceremonial Otomí",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site",
+      "tourist attraction"
+    ]
+  },
+  {
+    "id": "Q5859",
+    "label": "Chichén Itzá",
+    "start": 455,
+    "end": 1178,
+    "instanceOf": [
+      "tourist attraction",
+      "archaeological site",
+      "ancient city"
+    ]
+  },
+  {
+    "id": "Q5763357",
+    "label": "Cerro de Trincheras",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site",
+      "mountain"
+    ]
+  },
+  {
+    "id": "Q977738",
+    "label": "Uaxactún",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q5769252",
+    "label": "Cihuatán",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q2920817",
+    "label": "Chupícuaro",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site",
+      "archaeological culture"
+    ]
+  },
+  {
+    "id": "Q21503942",
+    "label": "Zona Arqueológica de Malinalco",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q2334607",
+    "label": "Izapa",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q5788425",
+    "label": "San Jerónimo de los Corazones",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q569227",
+    "label": "Ocotelulco",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site",
+      "altepetl",
+      "former settlement"
+    ]
+  },
+  {
+    "id": "Q1455172",
+    "label": "Xcalumkín",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q7261873",
+    "label": "Pusilha",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q532534",
+    "label": "El Perú",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site",
+      "Maya site in Guatemala"
+    ]
+  },
+  {
+    "id": "Q129546887",
+    "label": "Bakná",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "Maya site in Mexico"
+    ]
+  },
+  {
+    "id": "Q1024995",
+    "label": "Cacaxtla",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q137259713",
+    "label": "Caracol Caana",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "acropolis"
+    ]
+  },
+  {
+    "id": "Q464899",
+    "label": "Monte Albán",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q1027061",
+    "label": "Calixtlahuaca",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q5821162",
+    "label": "El Cambio (sitio arqueológico)",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q116030417",
+    "label": "Santa Rosa (sitio mesoamericano)",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q5822709",
+    "label": "El Palmar (sitio arqueológico)",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site",
+      "Maya site in Mexico"
+    ]
+  },
+  {
+    "id": "Q49165512",
+    "label": "Angamuco",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q605455",
+    "label": "Bonampak",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q1030434",
+    "label": "Castillo de Teayo",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "pyramid",
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q2352495",
+    "label": "El Tepozteco",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q615284",
+    "label": "Xochipala",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q27055355",
+    "label": "Teotón",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site",
+      "hill"
+    ]
+  },
+  {
+    "id": "Q508251",
+    "label": "Tres Zapotes",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q504904",
+    "label": "El Mirador",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site",
+      "human settlement"
+    ]
+  },
+  {
+    "id": "Q5055568",
+    "label": "Cañada de la Virgen",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q1035271",
+    "label": "Cara Sucia",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q1035336",
+    "label": "El Caracol",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "protected area",
+      "archaeological site",
+      "Maya site in Belize"
+    ]
+  },
+  {
+    "id": "Q125849002",
+    "label": "Lacanhá",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site",
+      "Maya site in Mexico"
+    ]
+  },
+  {
+    "id": "Q5862655",
+    "label": "Flor de Mayo (sitio arqueológico)",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q106513175",
+    "label": "Zona Arqueológica de Atzompa",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q9024025",
+    "label": "Los Horcones",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q140048525",
+    "label": "Sitio Arqueológico de Teocaltitán",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q5887429",
+    "label": "Guaspaltepec",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q2367575",
+    "label": "La Ciudad Blanca",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q4850276",
+    "label": "Balcón de Montezuma (sitio arqueológico)",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q3665160",
+    "label": "Cerro de las Minas",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q4858218",
+    "label": "Barajas (sitio arqueológico)",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q4736203",
+    "label": "Altavista",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q4865613",
+    "label": "Barton Creek Cave",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "cave",
+      "protected area",
+      "Maya site in Belize"
+    ]
+  },
+  {
+    "id": "Q5908062",
+    "label": "Ichkabal",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q133255351",
+    "label": "Xlahpak",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "Maya site in Mexico"
+    ]
+  },
+  {
+    "id": "Q1479363",
+    "label": "Yagul",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site",
+      "protected area"
+    ]
+  },
+  {
+    "id": "Q5192627",
+    "label": "Cueva Ahumada",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q125989657",
+    "label": "Yaxún",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "Maya site in Mexico"
+    ]
+  },
+  {
+    "id": "Q1324550",
+    "label": "El Rey",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q2031261",
+    "label": "Piedras Negras",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q1042074",
+    "label": "Toniná",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q133286165",
+    "label": "Chancalá",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "Maya site in Mexico"
+    ]
+  },
+  {
+    "id": "Q5925328",
+    "label": "Huamelulpan",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q5926105",
+    "label": "Huapalcalco",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q988570",
+    "label": "Ek Balam",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q5352323",
+    "label": "El Vallecito",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q133308098",
+    "label": "Tzendales",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "Maya site in Mexico"
+    ]
+  },
+  {
+    "id": "Q129884655",
+    "label": "Natentsun",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "Maya site in Mexico"
+    ]
+  },
+  {
+    "id": "Q6757562",
+    "label": "Marco Gonzalez",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "human settlement",
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q2659127",
+    "label": "Cultura de Capacha",
+    "start": -2500,
+    "end": 1500,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q813784",
+    "label": "Becán",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q797120",
+    "label": "Xochicalco",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q1133169",
+    "label": "Tezcutzingo",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site",
+      "botanical garden"
+    ]
+  },
+  {
+    "id": "Q785823",
+    "label": "Kohunlich",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site",
+      "city"
+    ]
+  },
+  {
+    "id": "Q18154059",
+    "label": "Kiuic",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q907731",
+    "label": "El Manatí",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q690372",
+    "label": "Tazumal",
+    "start": 100,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q2989048",
+    "label": "Guachimontones",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q1189077",
+    "label": "Tututepec",
+    "start": 1063,
+    "end": 1522,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q109285479",
+    "label": "Rio Amarillo",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q5351103",
+    "label": "El Cóporo",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q3330387",
+    "label": "Museo del Templo Mayor",
+    "start": 1987,
+    "end": null,
+    "instanceOf": [
+      "museum",
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q2000719",
+    "label": "San Andrés",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q5960381",
+    "label": "Komchén (sitio arqueológico)",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q5960865",
+    "label": "Kukab",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q2400405",
+    "label": "Tehuacalco",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q2400413",
+    "label": "Tehuacán (El Salvador)",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q126122537",
+    "label": "Chinikihá",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "Maya site in Mexico"
+    ]
+  },
+  {
+    "id": "Q17629366",
+    "label": "San Isidro",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q7809030",
+    "label": "Tipu, Belize",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "Maya site in Belize"
+    ]
+  },
+  {
+    "id": "Q1494721",
+    "label": "Guiengola",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q10355436",
+    "label": "Puerto Escondido",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q137601650",
+    "label": "Chakanbakán",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "Maya site in Mexico"
+    ]
+  },
+  {
+    "id": "Q1254462",
+    "label": "Tabasqueño",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q5970562",
+    "label": "Las Marías (sitio arqueológico)",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q5970707",
+    "label": "Las Pilas (zona arqueológica)",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q65162159",
+    "label": "Tenampúa",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q135669482",
+    "label": "Zona Arqueológica Tepapayeca",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q6935864",
+    "label": "Mundo Perdido",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "ancient city",
+      "building complex"
+    ]
+  },
+  {
+    "id": "Q5101756",
+    "label": "Chiquihuitillos",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q30504598",
+    "label": "sitio de maya en Belice",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q30504599",
+    "label": "sitio de maya en El Salvador",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q30504600",
+    "label": "sitio de maya en Guatemala",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q30504601",
+    "label": "sitio de maya en Honduras",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q5990678",
+    "label": "Malpasito",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q30511998",
+    "label": "El Tzic",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "Maya site in Guatemala"
+    ]
+  },
+  {
+    "id": "Q30511990",
+    "label": "Moquena",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "Maya site in Guatemala"
+    ]
+  },
+  {
+    "id": "Q30512064",
+    "label": "Ixcoxol",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "Maya site in Guatemala"
+    ]
+  },
+  {
+    "id": "Q30512059",
+    "label": "Sukche",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "Maya site in Guatemala"
+    ]
+  },
+  {
+    "id": "Q30512081",
+    "label": "Nocsos",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "Maya site in Guatemala"
+    ]
+  },
+  {
+    "id": "Q30512108",
+    "label": "Mopan 2",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "Maya site in Guatemala"
+    ]
+  },
+  {
+    "id": "Q30512124",
+    "label": "Ixac",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "Maya site in Guatemala"
+    ]
+  },
+  {
+    "id": "Q30512112",
+    "label": "Tesik",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "Maya site in Guatemala"
+    ]
+  },
+  {
+    "id": "Q847614",
+    "label": "Dzibanché",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site",
+      "Maya site in Mexico"
+    ]
+  },
+  {
+    "id": "Q7047565",
+    "label": "Nohmul",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site",
+      "destroyed building or structure"
+    ]
+  },
+  {
+    "id": "Q6462492",
+    "label": "La Ferrería",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q2549049",
+    "label": "Cerro de las Mesas",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q6171622",
+    "label": "Monte Negro, Tilantongo",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q8060891",
+    "label": "Yula",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "Maya site in Guatemala"
+    ]
+  },
+  {
+    "id": "Q2098146",
+    "label": "Río Azul",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q17085626",
+    "label": "Playa de los Muertos",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q4002533",
+    "label": "Ucanal",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q4002996",
+    "label": "Ujuxte",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "Maya site in Guatemala"
+    ]
+  },
+  {
+    "id": "Q223397",
+    "label": "Acanmul",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q5064950",
+    "label": "Cerro Palenque",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q2112520",
+    "label": "La Quemada",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q25181809",
+    "label": "Ruinas de Utalán",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q25181988",
+    "label": "Belejtzak",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q17593951",
+    "label": "Tamchén",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q25185678",
+    "label": "Sitio Arqueológico Los Bordos",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q2576218",
+    "label": "El Azuzul",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q4022792",
+    "label": "Yo'okop",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q104855390",
+    "label": "Central de Mamuts",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site",
+      "paleontological site"
+    ]
+  },
+  {
+    "id": "Q2142587",
+    "label": "Tlapacoya",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q47015374",
+    "label": "Ocotelulco",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q47015590",
+    "label": "Cerrito del Chiquihuite",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q5144797",
+    "label": "Colha, Belize",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "Maya site in Belize"
+    ]
+  },
+  {
+    "id": "Q136547862",
+    "label": "Blackman Eddy",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site",
+      "Maya site in Belize"
+    ]
+  },
+  {
+    "id": "Q25239324",
+    "label": "Pahñú",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q2591884",
+    "label": "Cancuén",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q7126316",
+    "label": "Palacio de Ocomo",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q2301600",
+    "label": "La Mojarra",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q6171621",
+    "label": "zona arqueológica de Mixcoac",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site",
+      "tourist attraction"
+    ]
+  },
+  {
+    "id": "Q8028659",
+    "label": "Witzná",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q2598418",
+    "label": "Xkipché",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site",
+      "Maya site in Mexico"
+    ]
+  },
+  {
+    "id": "Q3637536",
+    "label": "Bejucal",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q26596",
+    "label": "Dzibilchaltún",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q5925419",
+    "label": "Huandacareo",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q853265",
+    "label": "Paquimé",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q5179927",
+    "label": "Cueva de Coxcatlán",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q1142826",
+    "label": "Cuarenta Casas",
+    "start": 1300,
+    "end": null,
+    "instanceOf": [
+      "archaeological site",
+      "cliff dwelling"
+    ]
+  },
+  {
+    "id": "Q127250025",
+    "label": "Oxlahuntún",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "Maya site in Mexico"
+    ]
+  },
+  {
+    "id": "Q8049601",
+    "label": "Yarumela",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q47133841",
+    "label": "Tizatlán",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q131107370",
+    "label": "El Chicozapote",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "Maya site in Mexico"
+    ]
+  },
+  {
+    "id": "Q5352361",
+    "label": "El Zapotal",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q7166897",
+    "label": "Zona Arqueológica de Peralta",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q28155393",
+    "label": "La Mar",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "Maya site in Mexico"
+    ]
+  },
+  {
+    "id": "Q529147",
+    "label": "Lubaantún",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site",
+      "protected area",
+      "Maya site in Belize"
+    ]
+  },
+  {
+    "id": "Q135922902",
+    "label": "Pok Ta Pok",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "Maya site in Mexico"
+    ]
+  },
+  {
+    "id": "Q3267114",
+    "label": "Cueva de Oxtotitlán",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site",
+      "rock shelter"
+    ]
+  },
+  {
+    "id": "Q6492126",
+    "label": "Las Choapas",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q5731519",
+    "label": "Bolinas",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q2404076",
+    "label": "Teopanzolco",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q3275800",
+    "label": "Xlapak",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q772613",
+    "label": "Zona Arqueológica de San Lorenzo",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q6464428",
+    "label": "La Pintada",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q13518345",
+    "label": "Chactún (yacimiento arqueológico)",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q4849438",
+    "label": "Baking Pot",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site",
+      "Maya site in Belize"
+    ]
+  },
+  {
+    "id": "Q97175237",
+    "label": "Tacuzcalco",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q536787",
+    "label": "Xochitécatl",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q383634",
+    "label": "Ixlú",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q774512",
+    "label": "Edzná",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q60768766",
+    "label": "Moxviquil",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q6492074",
+    "label": "Las Bocas",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q539473",
+    "label": "Huápoca",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q134611530",
+    "label": "Los Abuelos",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q131298211",
+    "label": "Saknatún",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "Maya site in Mexico"
+    ]
+  },
+  {
+    "id": "Q540295",
+    "label": "Uxbenká",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site",
+      "human settlement"
+    ]
+  },
+  {
+    "id": "Q7258551",
+    "label": "Puerto Cortés (Baja California Sur)",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "human settlement",
+      "maritime settlement",
+      "fishing village"
+    ]
+  },
+  {
+    "id": "Q1323914",
+    "label": "El Baúl",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q1323957",
+    "label": "El Chanal",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q7259503",
+    "label": "Pulltrouser Swamp",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site",
+      "wetland"
+    ]
+  },
+  {
+    "id": "Q3314717",
+    "label": "Minanha",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q1324311",
+    "label": "El Meco",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site",
+      "Maya site in Mexico"
+    ]
+  },
+  {
+    "id": "Q1324484",
+    "label": "El Pilar (sitio arqueológico)",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site",
+      "transboundary protected area",
+      "Maya site in Belize",
+      "Maya site in Guatemala"
+    ]
+  },
+  {
+    "id": "Q127531821",
+    "label": "Nadzca'an",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "Maya site in Mexico"
+    ]
+  },
+  {
+    "id": "Q119832660",
+    "label": "Ocomtún",
+    "start": 600,
+    "end": 1000,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q652792",
+    "label": "Mixco Viejo",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site",
+      "human settlement"
+    ]
+  },
+  {
+    "id": "Q388238",
+    "label": "Nakum",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q2439439",
+    "label": "Q2439439",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q6146456",
+    "label": "Ticomán",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q1650771",
+    "label": "Otumba",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site",
+      "altepetl"
+    ]
+  },
+  {
+    "id": "Q2664375",
+    "label": "Chunchucmil",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q1621986",
+    "label": "Hochob",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q655127",
+    "label": "Chinkultic",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site",
+      "ancient city",
+      "Maya site in Mexico"
+    ]
+  },
+  {
+    "id": "Q136337561",
+    "label": "Rancho Ina",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "Maya site in Mexico"
+    ]
+  },
+  {
+    "id": "Q5243466",
+    "label": "Quelepa",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q662263",
+    "label": "Yaxchilán",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q135013610",
+    "label": "Sac Balam",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "Maya site in Mexico"
+    ]
+  },
+  {
+    "id": "Q1534212",
+    "label": "Ceibal",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site",
+      "human settlement"
+    ]
+  },
+  {
+    "id": "Q2725918",
+    "label": "Santa Cecilia Acatitlán",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q18222539",
+    "label": "Chunhuhub",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q181427",
+    "label": "Palenque",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q3050159",
+    "label": "Q3050159",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "necropolis"
+    ]
+  },
+  {
+    "id": "Q27985",
+    "label": "Joya de Cerén",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q97573155",
+    "label": "Peñol de Juchipila",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q3388840",
+    "label": "Casa Blanca",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q136430951",
+    "label": "Zona Arqueológica de Tres Cerritos",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q97861452",
+    "label": "Chan Chich Site",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q4384315",
+    "label": "Zona Arqueológica de Chiapa de Corzo",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q5504507",
+    "label": "Frightful Cave",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site",
+      "cave"
+    ]
+  },
+  {
+    "id": "Q3218223",
+    "label": "Q3218223",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q6427175",
+    "label": "El Ixtépete",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q136462758",
+    "label": "Zona Arqueológica Los Cerritos de San Cristóbal Tepatlaxco",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q97959842",
+    "label": "Buenavista del Cayo Site",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site",
+      "Maya site in Belize"
+    ]
+  },
+  {
+    "id": "Q2164403",
+    "label": "Cuenca del Petén",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q28792726",
+    "label": "Cuevas de Ocampo",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q4450991",
+    "label": "Tamuín (zona arqueológica)",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q135269978",
+    "label": "Zona Arqueológica Cerro de la Estrella",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "tourist attraction",
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q3721023",
+    "label": "El Tintal",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q6461255",
+    "label": "La Blanca (sitio arqueológico)",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q136543186",
+    "label": "Barton Ramie",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site",
+      "Maya site in Belize"
+    ]
+  },
+  {
+    "id": "Q6463273",
+    "label": "La Joyanca",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q318422",
+    "label": "Quiriguá",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q6410360",
+    "label": "Kinal",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q6465336",
+    "label": "La Sufricaya",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q6465304",
+    "label": "La Soledad de Maciel",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q136557159",
+    "label": "Las Ruinas de Arenal",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site",
+      "Maya site in Belize"
+    ]
+  },
+  {
+    "id": "Q567966",
+    "label": "Mayapán",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q2185890",
+    "label": "Templo del Gran Jaguar",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site",
+      "temple",
+      "Mesoamerican pyramid"
+    ]
+  },
+  {
+    "id": "Q1103348",
+    "label": "Zaachila",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q105771580",
+    "label": "Cerro Portezuelo",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q5556243",
+    "label": "Gheo Shih",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q26275164",
+    "label": "Curucuitz",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "Maya site in Guatemala"
+    ]
+  },
+  {
+    "id": "Q3925731",
+    "label": "Punta Sur",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q1081581",
+    "label": "Kaminaljuyú",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q93255509",
+    "label": "El Sabinito",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q1104450",
+    "label": "Coatetelco",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q3786782",
+    "label": "Hormiguero",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q26300739",
+    "label": "Ixcol",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "Maya site in Guatemala"
+    ]
+  },
+  {
+    "id": "Q26301589",
+    "label": "Ixec",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "Maya site in Guatemala"
+    ]
+  },
+  {
+    "id": "Q15063939",
+    "label": "Q'umarkaj",
+    "start": 1400,
+    "end": 1524,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q3675217",
+    "label": "Chitinamit",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q3675331",
+    "label": "Chocolá",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q5099292",
+    "label": "Chimalhuacán",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q1083004",
+    "label": "Nim Li Punit",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "protected area",
+      "archaeological site",
+      "Maya site in Belize"
+    ]
+  },
+  {
+    "id": "Q98152448",
+    "label": "Zona Arqueológica Etzatlán",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q14204914",
+    "label": "Bolonchén de Rejón",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q14205522",
+    "label": "Buenavista del Cayo",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q14206359",
+    "label": "Chan Chich",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q14206399",
+    "label": "Chau Hiix",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q568672",
+    "label": "Tollan-Xicocotitlan",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q14213023",
+    "label": "Kinichná",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site",
+      "Maya site in Mexico"
+    ]
+  },
+  {
+    "id": "Q325468",
+    "label": "Kabáh",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site",
+      "locality of Mexico"
+    ]
+  },
+  {
+    "id": "Q774021",
+    "label": "Templo Mayor",
+    "start": 1325,
+    "end": null,
+    "instanceOf": [
+      "archaeological site",
+      "pyramid",
+      "temple",
+      "step pyramid"
+    ]
+  },
+  {
+    "id": "Q14222389",
+    "label": "Uxbentun",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q14223496",
+    "label": "Xnaheb",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q1735970",
+    "label": "Mul Chic",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "Maya site in Mexico"
+    ]
+  },
+  {
+    "id": "Q11680795",
+    "label": "Colhuacan",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q21867057",
+    "label": "La Milpa",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "ancient monument"
+    ]
+  },
+  {
+    "id": "Q14237615",
+    "label": "Tzintzuntzan (sitio arquelógico)",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q23579827",
+    "label": "Cuyamel Caves",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q3720992",
+    "label": "El Puente",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "Maya site in Honduras"
+    ]
+  },
+  {
+    "id": "Q136706155",
+    "label": "Tehuacán el Viejo",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q1366027",
+    "label": "Mitla",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q16242410",
+    "label": "Jolja'",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "Maya site in Mexico"
+    ]
+  },
+  {
+    "id": "Q18150293",
+    "label": "El Porvenir",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "Maya site in Guatemala"
+    ]
+  },
+  {
+    "id": "Q1368626",
+    "label": "Tollan",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q804617",
+    "label": "Balamkú",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site",
+      "Maya site in Mexico"
+    ]
+  },
+  {
+    "id": "Q132327592",
+    "label": "Tenam Rosario",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "Maya site in Mexico"
+    ]
+  },
+  {
+    "id": "Q252151",
+    "label": "Xultún",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q1426042",
+    "label": "La Corona",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q446176",
+    "label": "Altún Ha",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site",
+      "protected area",
+      "Maya site in Belize"
+    ]
+  },
+  {
+    "id": "Q21196477",
+    "label": "Lower Dover",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "Maya site in Belize"
+    ]
+  },
+  {
+    "id": "Q128803532",
+    "label": "Paxil",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q1383296",
+    "label": "Tortuguero",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site",
+      "Maya site in Mexico"
+    ]
+  },
+  {
+    "id": "Q136788522",
+    "label": "Tzemé",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "Maya site in Mexico"
+    ]
+  },
+  {
+    "id": "Q5124169",
+    "label": "Ciudad Vieja",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q29240",
+    "label": "Pirámide de la Luna",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "pyramid",
+      "archaeological site",
+      "step pyramid"
+    ]
+  },
+  {
+    "id": "Q909286",
+    "label": "Dos Pilas",
+    "start": 629,
+    "end": 761,
+    "instanceOf": [
+      "human settlement",
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q12904528",
+    "label": "Q12904528",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site",
+      "ancient city"
+    ]
+  },
+  {
+    "id": "Q12911513",
+    "label": "Q12911513",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site",
+      "historical settlement"
+    ]
+  },
+  {
+    "id": "Q21867199",
+    "label": "Q21867199",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q21867383",
+    "label": "Q21867383",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q21867384",
+    "label": "Q21867384",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q21870484",
+    "label": "Q21870484",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q21870617",
+    "label": "Q21870617",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q1769512",
+    "label": "Balberta",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q1770492",
+    "label": "Naachtún",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q1770582",
+    "label": "La Muerta",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q1771263",
+    "label": "Yucuita",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site",
+      "hill"
+    ]
+  },
+  {
+    "id": "Q1771321",
+    "label": "Lambityeco",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q30610",
+    "label": "Aké",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q1394781",
+    "label": "Plan de Ayutla",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "Maya site in Mexico"
+    ]
+  },
+  {
+    "id": "Q1773722",
+    "label": "Motul de San José",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site",
+      "human settlement"
+    ]
+  },
+  {
+    "id": "Q6796762",
+    "label": "Maya ruins of Belize",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q10378054",
+    "label": "Tancama",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q96059496",
+    "label": "Aguada Fénix",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "Maya site in Mexico"
+    ]
+  },
+  {
+    "id": "Q4929007",
+    "label": "Río Azul (América Central)",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q14205918",
+    "label": "Q14205918",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q21867026",
+    "label": "Jacinto Creek",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q21870321",
+    "label": "Actuncan",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site",
+      "Maya site in Belize"
+    ]
+  },
+  {
+    "id": "Q21870691",
+    "label": "Guinea Grass",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "ancient monument"
+    ]
+  },
+  {
+    "id": "Q1504007",
+    "label": "Plazuelas",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q4936130",
+    "label": "Boca de Potrerillos",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q130730158",
+    "label": "Valeriana",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site",
+      "Maya city"
+    ]
+  },
+  {
+    "id": "Q839010",
+    "label": "Q839010",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q137659739",
+    "label": "Oxpemul",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "Maya site in Mexico"
+    ]
+  },
+  {
+    "id": "Q27345266",
+    "label": "Monte Tláloc",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site",
+      "mountain"
+    ]
+  },
+  {
+    "id": "Q1509537",
+    "label": "Takalik Abaj",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site",
+      "national park of Guatemala"
+    ]
+  },
+  {
+    "id": "Q6683012",
+    "label": "Los Naranjos",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q7838719",
+    "label": "Tres Islas (sitio arqueológico)",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q1417475",
+    "label": "Gran Pirámide de Cholula",
+    "start": -299,
+    "end": null,
+    "instanceOf": [
+      "archaeological site",
+      "pyramid"
+    ]
+  },
+  {
+    "id": "Q213232",
+    "label": "Uxmal",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q130215766",
+    "label": "Dzehkabtún",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "Maya site in Mexico"
+    ]
+  },
+  {
+    "id": "Q133620366",
+    "label": "Ijik Xajlel",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "Maya site in Mexico"
+    ]
+  },
+  {
+    "id": "Q1143307",
+    "label": "Cuicuilco",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q795599",
+    "label": "San Bartolo",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "Maya site in Guatemala"
+    ]
+  },
+  {
+    "id": "Q7857270",
+    "label": "Tuzapán, Veracruz",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q56291132",
+    "label": "Nixtun Ch'ich'",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "ancient city"
+    ]
+  },
+  {
+    "id": "Q913166",
+    "label": "La Venta",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q3034708",
+    "label": "Pirámide del Adivino",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "pyramid",
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q1522451",
+    "label": "Labná",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q725883",
+    "label": "Tulum",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site",
+      "tourist attraction"
+    ]
+  },
+  {
+    "id": "Q6904218",
+    "label": "Montana (sitio arqueológico)",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q130300949",
+    "label": "Limones (sitio arqueológico)",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "Maya site in Mexico"
+    ]
+  },
+  {
+    "id": "Q27882576",
+    "label": "Q27882576",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q283573",
+    "label": "isla de Jaina",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site",
+      "island"
+    ]
+  },
+  {
+    "id": "Q21002633",
+    "label": "Casa de las águilas",
+    "start": 1430,
+    "end": null,
+    "instanceOf": [
+      "building",
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q3786354",
+    "label": "Holmul",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q1526776",
+    "label": "Xel-Há",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q172613",
+    "label": "Teotihuacan",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site",
+      "historic site"
+    ]
+  },
+  {
+    "id": "Q130332172",
+    "label": "Pol Box",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "Maya site in Mexico"
+    ]
+  },
+  {
+    "id": "Q5823505",
+    "label": "El Tepozán",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site",
+      "rock painting"
+    ]
+  },
+  {
+    "id": "Q5351055",
+    "label": "El Conde",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q214827",
+    "label": "Copán",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q2454816",
+    "label": "Teopantecuanitlán",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q5402637",
+    "label": "Las Labradas",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site",
+      "petroglyphic site"
+    ]
+  },
+  {
+    "id": "Q126487876",
+    "label": "Xupá",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "Maya site in Mexico"
+    ]
+  },
+  {
+    "id": "Q3804579",
+    "label": "Itzán",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q6059696",
+    "label": "Panhalé",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "Maya site in Mexico"
+    ]
+  },
+  {
+    "id": "Q1053364",
+    "label": "Cempoala",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q130393987",
+    "label": "X'baatún",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "Maya site in Mexico"
+    ]
+  },
+  {
+    "id": "Q1269435",
+    "label": "Dzibilnocac",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q4999657",
+    "label": "Burnet Cave",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site",
+      "cave"
+    ]
+  },
+  {
+    "id": "Q3720966",
+    "label": "El Palmillo",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q15229025",
+    "label": "Ixtlán del Rio",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q3820630",
+    "label": "La Amelia (sitio arqueológico)",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q647989",
+    "label": "Tenayuca",
+    "start": 1224,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q28756911",
+    "label": "Santa Isabel",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "Maya site in Guatemala"
+    ]
+  },
+  {
+    "id": "Q1964016",
+    "label": "Nakbé",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q1274821",
+    "label": "Q1274821",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q22138168",
+    "label": "Xutixtiox",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "Maya site in Guatemala"
+    ]
+  },
+  {
+    "id": "Q15228114",
+    "label": "Ihuatzio (sitio arqueológico)",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q15229017",
+    "label": "Ixcateopan",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q1540906",
+    "label": "Yaxhá",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q130525783",
+    "label": "El Palma",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "Maya site in Mexico"
+    ]
+  },
+  {
+    "id": "Q133881361",
+    "label": "Laxtunich",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "Maya site in Mexico"
+    ]
+  },
+  {
+    "id": "Q6101199",
+    "label": "Ixtontón",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "Maya site in Guatemala"
+    ]
+  },
+  {
+    "id": "Q123092050",
+    "label": "San Miguelito",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q1156198",
+    "label": "Balankanché",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "cave",
+      "archaeological site",
+      "Maya site in Mexico"
+    ]
+  },
+  {
+    "id": "Q15262486",
+    "label": "North Acropolis, Tikal",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q133857666",
+    "label": "Los Alacranes",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "Maya site in Mexico"
+    ]
+  },
+  {
+    "id": "Q5048051",
+    "label": "Casas Nuevas de Moctezuma",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q3947025",
+    "label": "San Esteban",
+    "start": -299,
+    "end": null,
+    "instanceOf": [
+      "Maya site in Belize"
+    ]
+  },
+  {
+    "id": "Q21870692",
+    "label": "Happy Home",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q1157643",
+    "label": "Dainzú",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q15283962",
+    "label": "Pomona, Tabasco",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q1056179",
+    "label": "Cerros",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "protected area",
+      "archaeological site",
+      "Maya site in Belize"
+    ]
+  },
+  {
+    "id": "Q3889045",
+    "label": "Pajaral",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q899503",
+    "label": "Cuello (sitio arqueológico)",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q1548550",
+    "label": "Muyil",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "Maya site in Mexico"
+    ]
+  },
+  {
+    "id": "Q6142105",
+    "label": "Tepexi el Viejo",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q130646498",
+    "label": "Noh Kah",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "Maya site in Mexico"
+    ]
+  },
+  {
+    "id": "Q5069323",
+    "label": "Chamá",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "Maya site in Guatemala"
+    ]
+  },
+  {
+    "id": "Q3132625",
+    "label": "Nebaj",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q3120596",
+    "label": "Guilá Naquitz",
+    "start": -10750,
+    "end": null,
+    "instanceOf": [
+      "cave",
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q3905930",
+    "label": "Pixoy",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q5072695",
+    "label": "Chantuto Archaeological Site",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q6137408",
+    "label": "T'Hó",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site",
+      "ancient city"
+    ]
+  },
+  {
+    "id": "Q509023",
+    "label": "Cueva de La Candelaria",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site",
+      "cave"
+    ]
+  },
+  {
+    "id": "Q6138574",
+    "label": "Tamtoc",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q126813323",
+    "label": "Yacata del Rey Caltzontzin",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q1435909",
+    "label": "Xcaret",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "Maya site in Mexico"
+    ]
+  },
+  {
+    "id": "Q3925745",
+    "label": "Punta de Chimino",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q134078104",
+    "label": "Itzimté",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "Maya site in Mexico"
+    ]
+  },
+  {
+    "id": "Q1929180",
+    "label": "Tlatilco",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q1058412",
+    "label": "Chacmultún",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q6155373",
+    "label": "Ulúa-Yojoa (sitio arqueológico)",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q126893974",
+    "label": "Bolonkin",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site",
+      "Maya site in Mexico"
+    ]
+  },
+  {
+    "id": "Q1556262",
+    "label": "Hacienda Cocoyoc",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q1059465",
+    "label": "Chalcatzingo",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q2535980",
+    "label": "San José Mogote",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q6463877",
+    "label": "La Milpa",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site",
+      "ancient city"
+    ]
+  },
+  {
+    "id": "Q3944708",
+    "label": "Sacul",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site",
+      "Maya site in Guatemala"
+    ]
+  },
+  {
+    "id": "Q15661566",
+    "label": "Cuevas prehistóricas de Yagul y Mitla",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "cave",
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q548096",
+    "label": "Laguna de los Cerros",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q136113128",
+    "label": "Ichmul de Morley",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "Maya site in Mexico"
+    ]
+  },
+  {
+    "id": "Q1329183",
+    "label": "Oxkintok",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q384562",
+    "label": "Quiahuiztlán",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site",
+      "altepetl"
+    ]
+  },
+  {
+    "id": "Q15241124",
+    "label": "La Joya",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q131441938",
+    "label": "Yamil Lu'um",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "Maya site in Mexico"
+    ]
+  },
+  {
+    "id": "Q723433",
+    "label": "Bilbao",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q3360026",
+    "label": "Pacbitun",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q2894409",
+    "label": "Arroyo de Piedra",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q131455565",
+    "label": "Costa Oriental de Quintana Roo",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q2793476",
+    "label": "Acozac",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q3361799",
+    "label": "Peñate",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q60967482",
+    "label": "Salinas la Blanca/ Salina Tilapa",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q3370078",
+    "label": "Cuahilama",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q928886",
+    "label": "Chacchobén",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q7689757",
+    "label": "Tayasal",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q5351002",
+    "label": "El Chal (sitio arqueológico)",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q5352244",
+    "label": "Cerro de El Teúl",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q1630717",
+    "label": "Río Bec",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q22976513",
+    "label": "Cerro Quiac",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "hill",
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q1632895",
+    "label": "Huatusco",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q1072052",
+    "label": "Chicanná",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site",
+      "Maya site in Mexico"
+    ]
+  },
+  {
+    "id": "Q4245661",
+    "label": "Cuyuxquihui",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q25180060",
+    "label": "Graciela",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "ancient monument"
+    ]
+  },
+  {
+    "id": "Q398094",
+    "label": "Aguateca",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q3392976",
+    "label": "Santa Elena Poco Uinic",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q6322438",
+    "label": "K'axob",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "Maya site in Belize"
+    ]
+  },
+  {
+    "id": "Q6322467",
+    "label": "K'o",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site",
+      "Maya site in Guatemala"
+    ]
+  },
+  {
+    "id": "Q3411285",
+    "label": "Pirámide de los Nichos",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q1646028",
+    "label": "Tamarindito",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q1646630",
+    "label": "Xunantunich",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site",
+      "protected area",
+      "Maya site in Belize"
+    ]
+  },
+  {
+    "id": "Q3117782",
+    "label": "Tilantongo",
+    "start": null,
+    "end": 1098,
+    "instanceOf": [
+      "ancient city"
+    ]
+  },
+  {
+    "id": "Q7380613",
+    "label": "zona arqueológica de Cholula",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q25178211",
+    "label": "Pueblo Viejo",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q552005",
+    "label": "Pinturas rupestres de la Sierra de San Francisco",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "painting series",
+      "petroglyphic site"
+    ]
+  },
+  {
+    "id": "Q3429206",
+    "label": "Copilco",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q4273900",
+    "label": "Xaman Ha'",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q139979",
+    "label": "Zaculeu",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q20644694",
+    "label": "Cerro de la Estrella Archaeological Site",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q25173856",
+    "label": "Q25173856",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q25175545",
+    "label": "Q25175545",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q25177482",
+    "label": "Q25177482",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q25177893",
+    "label": "Q25177893",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q25178204",
+    "label": "Q25178204",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q25179903",
+    "label": "Q25179903",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q25180195",
+    "label": "Q25180195",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q25180366",
+    "label": "Q25180366",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q25181624",
+    "label": "Q25181624",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q25181642",
+    "label": "Q25181642",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q25181648",
+    "label": "Q25181648",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q25181664",
+    "label": "Q25181664",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q25181723",
+    "label": "Q25181723",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q25181726",
+    "label": "Q25181726",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q25181727",
+    "label": "Q25181727",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q25181755",
+    "label": "Q25181755",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q25181759",
+    "label": "Q25181759",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q25181756",
+    "label": "Q25181756",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q25181760",
+    "label": "Q25181760",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q25181910",
+    "label": "Q25181910",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q6343057",
+    "label": "Ka'Kabish",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "human settlement",
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q25185634",
+    "label": "Q25185634",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q25185647",
+    "label": "Q25185647",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q25185650",
+    "label": "Q25185650",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q25185651",
+    "label": "Q25185651",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q25185648",
+    "label": "Q25185648",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q25185649",
+    "label": "Q25185649",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q25185652",
+    "label": "Q25185652",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q25185740",
+    "label": "Q25185740",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q25185937",
+    "label": "Q25185937",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q25185942",
+    "label": "Q25185942",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q25186231",
+    "label": "Q25186231",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q25186349",
+    "label": "Q25186349",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q25186352",
+    "label": "Q25186352",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q25186360",
+    "label": "Q25186360",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q25186413",
+    "label": "Q25186413",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q25186423",
+    "label": "Q25186423",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q25186660",
+    "label": "Q25186660",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q136294462",
+    "label": "Ex-convento de San Francisco Totimehuacán, Puebla",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "monastery ruins",
+      "former monastery"
+    ]
+  },
+  {
+    "id": "Q25187055",
+    "label": "Q25187055",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q25187053",
+    "label": "Q25187053",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q25187062",
+    "label": "Q25187062",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q25187067",
+    "label": "Q25187067",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q25187073",
+    "label": "Q25187073",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q25187078",
+    "label": "Q25187078",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q25187294",
+    "label": "Q25187294",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q25187313",
+    "label": "Q25187313",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q25187325",
+    "label": "Q25187325",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q25187405",
+    "label": "Q25187405",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q25187410",
+    "label": "Q25187410",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q25187414",
+    "label": "Q25187414",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q25187422",
+    "label": "Q25187422",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q25192986",
+    "label": "Q25192986",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q136303802",
+    "label": "Convent of Tecali de Herrera",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "monastery ruins"
+    ]
+  },
+  {
+    "id": "Q3467062",
+    "label": "Laguna Cuzcachapa",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site",
+      "lake"
+    ]
+  },
+  {
+    "id": "Q7414517",
+    "label": "Hacienda San José Chactún",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site",
+      "locality of Mexico"
+    ]
+  },
+  {
+    "id": "Q7414966",
+    "label": "Zona arqueológica de San Miguel Ixtapan",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q127946761",
+    "label": "Yaxnohcah",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "Maya site in Mexico"
+    ]
+  },
+  {
+    "id": "Q2717819",
+    "label": "Machaquilá",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "human settlement",
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q7419844",
+    "label": "Santa Rita Corozal",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "human settlement",
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q585928",
+    "label": "Ixtutz",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "Maya site in Guatemala"
+    ]
+  },
+  {
+    "id": "Q337011",
+    "label": "Cotzumalhuapa",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q126694605",
+    "label": "El Cayo",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "Maya site in Mexico"
+    ]
+  },
+  {
+    "id": "Q337677",
+    "label": "Acanceh (zona arqueológica)",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q3820666",
+    "label": "La Blanca",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q113197",
+    "label": "Kulubá",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q8773233",
+    "label": "El Ocote",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site",
+      "rock painting"
+    ]
+  },
+  {
+    "id": "Q29238",
+    "label": "Pirámide del Sol",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "temple",
+      "pyramid",
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q7632907",
+    "label": "Huijazoo",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q1405566",
+    "label": "Remojadas",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q5821156",
+    "label": "El Calón",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q8345935",
+    "label": "Chutnamit",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q2662467",
+    "label": "El Naranjo",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q592359",
+    "label": "Cuetlajuchitlán",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q388615",
+    "label": "Cantona",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q181172",
+    "label": "Tikal",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q272771",
+    "label": "Calakmul",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q1410761",
+    "label": "Ixkún",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "Maya site in Guatemala"
+    ]
+  },
+  {
+    "id": "Q344570",
+    "label": "Actun Tunichil Muknal",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site",
+      "cave",
+      "protected area",
+      "Maya site in Belize"
+    ]
+  },
+  {
+    "id": "Q8352614",
+    "label": "Cultura de Las Palmas",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q1800215",
+    "label": "El Lagartero",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q16242801",
+    "label": "Nito",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q12906418",
+    "label": "Ezna",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q2121220",
+    "label": "reino quiché de Q'umarkaj",
+    "start": null,
+    "end": 1524,
+    "instanceOf": [
+      "archaeological site",
+      "historical country"
+    ]
+  },
+  {
+    "id": "Q12907186",
+    "label": "zona arqueológica de Comalcalco",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q2877329",
+    "label": "Holtún",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site",
+      "ancient city"
+    ]
+  },
+  {
+    "id": "Q12912169",
+    "label": "Xpujil",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q48784688",
+    "label": "Cinacantan",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q3721037",
+    "label": "El Zotz",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q5350993",
+    "label": "El Cerrito (zona arqueológica)",
+    "start": -299,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q1419214",
+    "label": "Sayil",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site",
+      "locality of Mexico"
+    ]
+  },
+  {
+    "id": "Q968463",
+    "label": "Cahal Pech",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "protected area",
+      "archaeological site",
+      "Maya site in Belize"
+    ]
+  },
+  {
+    "id": "Q109907496",
+    "label": "Ojo de Agua geoarchaeological and paleontological site",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q968562",
+    "label": "Lamanai",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "protected area",
+      "archaeological site",
+      "Maya site in Belize"
+    ]
+  },
+  {
+    "id": "Q48816193",
+    "label": "Casa Denegrida de Moctezuma",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q2884045",
+    "label": "Cerrito de Los Melones",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q65134648",
+    "label": "Wakná",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q6785927",
+    "label": "Matacapan",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q18913534",
+    "label": "Yohualichan",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q1424918",
+    "label": "Zazacatla",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q1234439",
+    "label": "Moral Reforma",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "Maya site in Mexico"
+    ]
+  },
+  {
+    "id": "Q2888659",
+    "label": "Zapote Bobal",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q14549493",
+    "label": "Chakalal",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "Maya site in Mexico"
+    ]
+  },
+  {
+    "id": "Q129211085",
+    "label": "Candzibaantún",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "Maya site in Mexico"
+    ]
+  },
+  {
+    "id": "Q137048940",
+    "label": "Zona Arqueológica del Olintepec",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q263509",
+    "label": "Iximché",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site",
+      "human settlement"
+    ]
+  },
+  {
+    "id": "Q2303546",
+    "label": "Altar de los Sacrificios",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q2305397",
+    "label": "Zacpetén",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q16589444",
+    "label": "Las Ventanas",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q26793347",
+    "label": "Xihuatoxtla",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q2867454",
+    "label": "Tenam Puente",
+    "start": 300,
+    "end": 1200,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q38251974",
+    "label": "Chan Hol",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q2299724",
+    "label": "Cerro de la Estrella",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site",
+      "mountain"
+    ]
+  },
+  {
+    "id": "Q2309062",
+    "label": "Paso de la Amada",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q1438240",
+    "label": "Topoxté",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site",
+      "island"
+    ]
+  },
+  {
+    "id": "Q129299694",
+    "label": "Yatoch Ku",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "Maya site in Mexico"
+    ]
+  },
+  {
+    "id": "Q1815414",
+    "label": "Yaxuná",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q5725009",
+    "label": "Bejucal (Guatemala)",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q2312036",
+    "label": "Hueyatlaco",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site",
+      "ravine"
+    ]
+  },
+  {
+    "id": "Q16628473",
+    "label": "San Mateo Ixtatán",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q1817754",
+    "label": "Santa Rosa Xtampak",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site",
+      "Maya site in Mexico"
+    ]
+  },
+  {
+    "id": "Q601383",
+    "label": "San Gervasio",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site",
+      "Maya site in Mexico"
+    ]
+  },
+  {
+    "id": "Q3861113",
+    "label": "Montana",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "archaeological site"
+    ]
+  },
+  {
+    "id": "Q974552",
+    "label": "Grutas de Juxtlahuaca",
+    "start": null,
+    "end": null,
+    "instanceOf": [
+      "cave",
+      "archaeological site"
+    ]
+  }
+]
