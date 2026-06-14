@@ -17,6 +17,12 @@ export default defineConfig([
   reactHooks.configs.flat.recommended,
 
   {
+    settings: {
+      react: { version: "19.2.0" },
+    },
+  },
+
+  {
     files: ["**/*.{ts,tsx,js,jsx}"],
     plugins: {
       react,
@@ -36,10 +42,6 @@ export default defineConfig([
         // Auto-discovers tsconfig.*.json files
         projectService: true,
       },
-    },
-
-    settings: {
-      react: { version: "19.2.0" },
     },
 
     rules: {
