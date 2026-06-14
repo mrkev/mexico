@@ -1,4 +1,5 @@
 import L from "leaflet";
+import { any } from "./set";
 
 function svgIcon(name: string) {
   return new L.Icon({
@@ -9,7 +10,8 @@ function svgIcon(name: string) {
   });
 }
 
-const icon = {
+// lucide, boxicons and remixicon
+export const icon = {
   amphora: svgIcon("amphora"),
   bus: svgIcon("bus"),
   temple: svgIcon("church"),
@@ -26,72 +28,86 @@ const icon = {
   station: svgIcon("train-fill"),
   monument: svgIcon("arch"),
 };
-function any(set: Set<string>, ...strs: string[]) {
-  for (const str of strs) {
-    if (set.has(str)) {
-      return true;
+
+export function iconFor(set: Set<string>) {
+  for (const [_, marker] of Object.entries(markers)) {
+    if (any(set, ...marker.instances)) {
+      return marker.icon;
     }
   }
-  return false;
+  return icon.place;
 }
-export function iconFor(set: Set<string>) {
-  if (any(set, "railway station", "tram stop")) {
-    return icon.station;
-  } else if (any(set, "museum", "palace")) {
-    return icon.museum;
-  } else if (any(set, "park", "urban park")) {
-    return icon.trees;
-  } else if (any(set, "market")) {
-    return icon.store;
-  } else if (any(set, "monument", "sculpture", "statue")) {
-    return icon.monument;
-  } else if (any(set, "library")) {
-    return icon.books;
-  } else if (any(set, "sports season")) {
-    return icon.event;
-  } else if (
-    any(
-      set,
-      "university",
-      "Catholic university",
-      "Jesuit university",
-      "academic department",
-      "academic institution",
-      "public university"
-    )
-  ) {
-    return icon.school;
-  } else if (any(set, "radio station")) {
-    return icon.radioTower;
-  } else if (
-    any(
-      set,
+
+export const markers = {
+  disaster: {
+    name: "Disasters",
+    icon: icon.disaster,
+    instances: ["disaster", "conflagration", "structure fire"],
+  },
+  temple: {
+    name: "Churches",
+    icon: icon.temple,
+    instances: [
       "temple",
       "church building",
       "religious building",
-      "minor basilica"
-    )
-  ) {
-    return icon.temple;
-  } else if (any(set, "disaster", "conflagration", "structure fire")) {
-    return icon.disaster;
-  } else if (
-    any(
-      set,
+      "minor basilica",
+    ],
+  },
+  stadium: {
+    name: "Stadiums",
+    icon: icon.stadium,
+    instances: [
       "stadium",
       "association football venue",
       "bullring",
       "first class bullring",
       "sports venue",
-      "arena"
-    )
-  ) {
-    return icon.stadium;
-  } else if (any(set, "archaeological site")) {
-    return icon.amphora;
-  } else if (any(set, "bus station")) {
-    return icon.bus;
-  } else {
-    return icon.place;
-  }
-}
+      "arena",
+      "velodrome",
+    ],
+  },
+  event: {
+    name: "Events",
+    icon: svgIcon("calendar-star"),
+    instances: ["sports season"],
+  },
+  school: {
+    name: "Schools",
+    icon: icon.school,
+    instances: [
+      "university",
+      "Catholic university",
+      "Jesuit university",
+      "academic department",
+      "academic institution",
+      "public university",
+    ],
+  },
+  trainStation: {
+    instances: ["railway station", "tram stop"],
+    icon: icon.station,
+  },
+  museum: { instances: ["museum", "palace"], icon: icon.museum },
+  park: { instances: ["park", "urban park"], icon: icon.trees },
+  market: { instances: ["market"], icon: icon.store },
+  monument: {
+    instances: ["monument", "sculpture", "statue"],
+    icon: icon.monument,
+  },
+  library: { instances: ["library"], icon: icon.books },
+  radioStation: { instances: ["radio station"], icon: icon.radioTower },
+  archaeologicalSite: {
+    instances: ["archaeological site"],
+    icon: icon.amphora,
+  },
+  busStation: { instances: ["bus station"], icon: icon.bus },
+};
+
+export const categoryOfInstance = new Map(
+  Object.entries(markers)
+    .map(([category, marker]) => {
+      return marker.instances.map((instance) => [instance, category] as const);
+    })
+    .flat()
+);

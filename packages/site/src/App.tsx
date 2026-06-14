@@ -1,122 +1,30 @@
-import { wktToGeoJSON } from "betterknown";
-import L, { LatLngTuple, svg } from "leaflet";
+import { mSet, useLink } from "@mrkev/marked-subbable";
+import L, { LatLngTuple } from "leaflet";
+import { MinusIcon, PlusIcon } from "lucide-react";
 import { useEffect, useRef, useState } from "react";
 import { MapContainer, Marker, Popup, TileLayer } from "react-leaflet";
-import { simplifySparqlResults, SparqlValueRaw } from "wikibase-sdk";
-import wdk from "wikibase-sdk/wikidata.org";
-import { iconFor } from "./icons";
+import { Button } from "./components/ui/button";
+import { ButtonGroup } from "./components/ui/button-group";
+import { Toggle } from "./components/ui/toggle";
+import { iconFor, markers } from "./icons";
+import {
+  GUADALAJARA,
+  Place,
+  queryAll,
+  TLAQUEPAQUE,
+  TONALA,
+  ZAPOPAN,
+  ZAPOPAN2,
+} from "./wikidata";
 
 const position: LatLngTuple = [20.6752, -103.3473];
 
-const GUADALAJARA = "Q9022";
-const ZAPOPAN = "Q147402";
-const TLAQUEPAQUE = "Q155277";
-const TONALA = "Q2677554";
-const TLAJOMULCO = "Q20249211";
-
-const CITY_ADMIN_QUERY = (cityid: string) => `
-SELECT DISTINCT 
-  ?item 
-  ?itemLabel 
-  (GROUP_CONCAT(DISTINCT ?instanceOfLabel; separator="$$") AS ?instanceOfLabels)
-  ?coord 
-  ?enArticle 
-  ?esArticle
-WHERE {
-  VALUES ?city { wd:${cityid} }
-  
-  ?item wdt:P625 ?coord ;
-        wdt:P131* ?city .
-  
-  OPTIONAL {
-    ?enArticle schema:about ?item ;
-               schema:inLanguage "en" ;
-               schema:isPartOf <https://en.wikipedia.org/> .
-  }
-  OPTIONAL {
-    ?esArticle schema:about ?item ;
-               schema:inLanguage "es" ;
-               schema:isPartOf <https://es.wikipedia.org/> .
-  }
-  
-  FILTER(BOUND(?enArticle) || BOUND(?esArticle))
-  
-  OPTIONAL { 
-    ?item wdt:P31 ?instanceOf .
-    ?instanceOf rdfs:label ?instanceOfLabel .
-    FILTER(LANG(?instanceOfLabel) = "en")
-  }
-  
-  SERVICE wikibase:label { 
-    bd:serviceParam wikibase:language "es,en" . 
-    ?item rdfs:label ?itemLabel .
-  }
-}
-GROUP BY ?item ?itemLabel ?coord ?enArticle ?esArticle
-ORDER BY ?itemLabel
-`;
-
-const queryAll = async (places: string[]) => {
-  const results = await Promise.all(
-    places.map(async (place) => {
-      const url = wdk.sparqlQuery(CITY_ADMIN_QUERY(place));
-      const response = await fetch(url); // required User-Agent set by the browser
-      const entries = simplifySparqlResults(await response.json()).map(
-        ({
-          coord,
-          instanceOfLabels,
-          esArticle,
-          enArticle,
-          item: { value, label },
-        }) => {
-          const coords = expectPoint(wktToGeoJSON(String(coord)))
-            .coordinates as [number, number];
-          return [
-            String(value),
-            {
-              id: value,
-              label,
-              instanceOf: new Set(
-                String(instanceOfLabels)
-                  .split("$$")
-                  .filter((x) => x !== "")
-              ),
-              // for some reason this is fliped in the geojson format?
-              coord: [coords[1], coords[0]],
-              esArticle: esArticle as string | undefined,
-              enArticle: enArticle as string | undefined,
-            },
-          ] as const;
-        }
-      );
-      return entries;
-    })
-  );
-
-  return new Map(results.flat());
-};
-
-type Place = {
-  id: SparqlValueRaw;
-  label: SparqlValueRaw;
-  instanceOf: Set<string>;
-  coord: readonly [number, number];
-  esArticle: string | undefined;
-  enArticle: string | undefined;
-};
-
-function expectPoint(x: ReturnType<typeof wktToGeoJSON>) {
-  if (x?.type === "Point") {
-    return x;
-  } else {
-    throw new Error("not a point! " + String(x));
-  }
-}
+const state = { selected: mSet<string>(Object.keys(markers)) };
 
 export function App() {
-  const [count, setCount] = useState(0);
   const mapDivRef = useRef<HTMLDivElement | null>(null);
   const [places, setPlaces] = useState(() => new Map<string, Place>());
+  const sel = useLink(state.selected);
 
   useEffect(() => {
     const mapDiv = mapDivRef.current;
@@ -133,22 +41,65 @@ export function App() {
 
   return (
     <>
-      <div className="flex flex-col" style={{ width: 200 }}>
-        hello worldd
-        <button
-          onClick={() => {
-            console.log(wktToGeoJSON(`POINT(-400004.3 60000.1)`));
-            setCount((prev) => prev + 1);
-          }}
+      <div className="flex flex-col px-2 py-1 gap-6" style={{ width: 300 }}>
+        Wiki-Guadalajara
+        <ButtonGroup
+          orientation="vertical"
+          aria-label="Media controls"
+          className="h-fit"
         >
-          testtt
-        </button>
-        <button
+          {Object.entries(markers).map(([id, marker]) => {
+            return (
+              <Toggle
+                className="justify-start cursor-pointer"
+                key={id}
+                pressed={sel().has(id)}
+                onPressedChange={(pressed) => {
+                  if (!pressed) {
+                    sel().delete(id);
+                  } else {
+                    sel().add(id);
+                  }
+                }}
+                variant="outline"
+                size="sm"
+              >
+                <img
+                  className="bg-white border border-gray-500"
+                  src={marker.icon.options.iconRetinaUrl}
+                  width={marker.icon.options.iconSize.x}
+                  height={marker.icon.options.iconSize.y}
+                ></img>{" "}
+                {id}
+              </Toggle>
+            );
+          })}
+
+          <Toggle
+            pressed={sel().has("events")}
+            onPressedChange={(pressed) => {
+              if (!pressed) {
+                sel().delete("events");
+              } else {
+                sel().add("events");
+              }
+            }}
+            variant="outline"
+            size="sm"
+          >
+            <PlusIcon /> Events, disasters, etc
+          </Toggle>
+          <Toggle variant="outline" size="sm">
+            <MinusIcon /> Show That
+          </Toggle>
+        </ButtonGroup>
+        <Button
           onClick={async () => {
             const result = await queryAll([
               GUADALAJARA,
               TLAQUEPAQUE,
               ZAPOPAN,
+              ZAPOPAN2,
               TONALA,
               // TLAJOMULCO,
             ]);
@@ -157,10 +108,9 @@ export function App() {
           }}
         >
           hello click
-        </button>
+        </Button>
       </div>
 
-      {/* <div id="map"></div> */}
       <div className="grow" style={{ minWidth: 200 }}>
         <MapContainer
           className="h-full"
@@ -182,24 +132,39 @@ export function App() {
                 icon={iconFor(place.instanceOf)}
               >
                 <Popup>
-                  {place.label}{" "}
-                  {place.esArticle && (
-                    <a href={place.esArticle} target="_blank" rel="noreferrer">
-                      es
-                    </a>
-                  )}
-                  {place.enArticle && (
-                    <a href={place.enArticle} target="_blank" rel="noreferrer">
-                      en
-                    </a>
-                  )}
+                  <div className="flex flex-row gap-1 items-center">
+                    <b>{place.label}</b>
+                    {place.esArticle && (
+                      <a
+                        href={place.esArticle}
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        es
+                      </a>
+                    )}
+                    {place.esArticle && place.enArticle && (
+                      <div className="border-l border-gray-600 h-4 relative top-0.5"></div>
+                    )}
+                    {place.enArticle && (
+                      <a
+                        href={place.enArticle}
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        en
+                      </a>
+                    )}
+                  </div>
+
                   {window.location.hostname === "localhost" && (
-                    <>
-                      <button
+                    <div>
+                      <a
+                        href="#"
                         onClick={() => console.log(place, place.instanceOf)}
                       >
                         debug
-                      </button>
+                      </a>
                       <a
                         href={`https://www.wikidata.org/wiki/${id}`}
                         target="_blank"
@@ -207,7 +172,7 @@ export function App() {
                       >
                         data
                       </a>
-                    </>
+                    </div>
                   )}
                 </Popup>
               </Marker>
