@@ -36,7 +36,7 @@ This is a pnpm monorepo managed by Nx with two packages:
 
 A React + Vite single-page app that renders an interactive map of the Guadalajara metropolitan area (Guadalajara, Zapopan, Tlaquepaque, Tonalá). Key pieces:
 
-- **`src/wikidata.tsx`** — fetches place data from the Wikidata SPARQL endpoint. `queryAll()` takes a list of Wikidata city QIDs and returns a `Map<QID, Place>`. Each place has coordinates, label, `instanceOf` types, and optional Wikipedia article links in `es`/`en`. SPARQL results filter to only items that have at least one Wikipedia article.
+- **`src/wikidata.ts`** — fetches place data from the Wikidata SPARQL endpoint. `queryAll()` takes a list of Wikidata city QIDs and returns a `Map<QID, Place>`. Each place has coordinates, label, `instanceOf` types, and optional Wikipedia article links in `es`/`en`. SPARQL results filter to only items that have at least one Wikipedia article.
 - **`src/icons.tsx`** — defines the `markers` object which maps category names to Leaflet icons and Wikidata `instanceOf` label strings. `iconFor(instanceOf: Set<string>)` walks `markers` in order to find the first matching category. SVG icons are served as static assets from the `docs/` output directory.
 - **`src/App.tsx`** — the router (React Router `HashRouter`; hash routing is required for static GitHub Pages hosting). `/` redirects to `/guadalajara`.
 - **`src/routes/Guadalajara.tsx`** — the map view. Uses `react-leaflet` and `@mrkev/marked-subbable` for reactive state (`mSet`/`useLink`); the sidebar toggle panel drives which marker categories are visible via the `sel` set.
@@ -59,4 +59,4 @@ This package exists but is not actively used. Its `src/` contains only placehold
 - `wikibase-sdk` — builds SPARQL query URLs and simplifies results
 - `betterknown` — parses WKT geometry strings (coordinates come from Wikidata as WKT `POINT(lon lat)`)
 - `@mrkev/marked-subbable` — reactive state library (local, linked from a sibling repo at `play_play/substate`)
-- Radix UI primitives + Tailwind CSS v4 — UI components in `src/components/ui/`
+- shadcn (`base-vega` style, Base UI primitives) + Tailwind CSS v4 — UI components in `src/components/ui/`, generated with `pnpm dlx shadcn@latest add <name>` from `packages/site`. `src/index.css` must import `shadcn/tailwind.css` (it defines the `data-checked`/`data-horizontal`/… variants Base UI needs)

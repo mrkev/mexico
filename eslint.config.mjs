@@ -47,6 +47,15 @@ export default defineConfig([
     },
   },
 
+  // Vendored shadcn components export their cva variants alongside the
+  // component; keep them as the CLI generates them.
+  {
+    files: ["packages/site/src/components/ui/**"],
+    rules: {
+      "react-refresh/only-export-components": "off",
+    },
+  },
+
   // Node-side code: configs and offline scripts
   {
     files: [
