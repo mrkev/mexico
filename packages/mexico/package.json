@@ -17,13 +17,15 @@
   ],
   "scripts": {
     "dev": "vite build -c vite.config.ts --watch",
-    "build": "tsc && vite build -c vite.config.ts --emptyOutDir",
+    "typecheck": "tsc -b",
+    "build": "tsc -b && vite build -c vite.config.ts --emptyOutDir",
     "preview": "vite preview",
     "test": "echo 'no tests atm'"
   },
   "devDependencies": {
-    "vite": "^7.1.11",
-    "vite-plugin-dts": "^4.5.4"
+    "@types/node": "^26.6.11",
+    "vite": "^8.4.0",
+    "vite-plugin-dts": "^5.1.2"
   },
   "mexico TODO": "FILL THESE FIELDS BELOW",
   "homepage": "",

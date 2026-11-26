@@ -1,11 +1,10 @@
-import { resolve } from "path";
 import { defineConfig } from "vite";
 import dts from "vite-plugin-dts";
 
 // https://vitejs.dev/config/
 export default defineConfig({
   logLevel: "info",
-  plugins: [dts()],
+  plugins: [dts({ tsconfigPath: "./tsconfig.lib.json" })],
   server: {
     port: 5174,
   },
@@ -14,12 +13,12 @@ export default defineConfig({
     minify: false,
     lib: {
       // Could also be a dictionary or array of multiple entry points
-      entry: resolve(__dirname, "src/index.ts"),
+      entry: `${import.meta.dirname}/src/index.ts`,
       name: "mexico",
       // the proper extensions will be added
       fileName: "mexico",
     },
-    rollupOptions: {
+    rolldownOptions: {
       // make sure to externalize deps that shouldn't be bundled nto your library
       external: ["react", "react-dom"],
       output: {

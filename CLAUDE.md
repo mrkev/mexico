@@ -17,8 +17,9 @@ pnpm dev
 pnpm build         # everything
 pnpm build:site    # site only
 
-# Lint
+# Lint / typecheck
 pnpm lint
+pnpm typecheck    # tsc -b in each package
 
 # Refresh the cached Historia timeline data from Wikidata (run with bun).
 # Writes packages/site/src/data/<layer>.json. WDQS rate-limits ~1 req/min,

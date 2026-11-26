@@ -1,26 +1,24 @@
 {
   "private": true,
-  "workspaces": [
-    "packages/*"
-  ],
   "scripts": {
-    "dev": "npm run --workspace=site dev",
-    "build": "npx nx run-many -t build",
-    "build:site": "npm run --workspace=site build",
-    "build:lib": "npm run --workspace=mexico build",
+    "dev": "pnpm --filter site dev",
+    "build": "nx run-many -t build",
+    "build:site": "pnpm --filter site build",
+    "build:lib": "pnpm --filter mexico build",
+    "typecheck": "pnpm -r typecheck",
     "lint": "eslint"
   },
   "devDependencies": {
-    "@changesets/cli": "^2.31.0",
+    "@changesets/cli": "^3.0.3",
+    "@eslint-react/eslint-plugin": "^5.30.6",
     "@eslint/js": "^10.0.1",
-    "eslint": "^10.5.0",
-    "eslint-plugin-react": "^7.37.5",
+    "eslint": "^10.15.0",
     "eslint-plugin-react-hooks": "^7.1.1",
-    "eslint-plugin-react-refresh": "^0.5.2",
-    "globals": "^16.5.0",
-    "nx": "22.7.5",
-    "typescript": "^5.9.3",
-    "typescript-eslint": "^8.61.0"
+    "eslint-plugin-react-refresh": "^0.5.8",
+    "globals": "^17.14.0",
+    "nx": "24.0.7",
+    "typescript": "^6.0.3",
+    "typescript-eslint": "^8.74.0"
   },
-  "packageManager": "pnpm@10.34.3"
+  "packageManager": "pnpm@10.34.9+sha512.f49b5a8ea0fdedb44bb3c0c1d6575092a53c2950d95b7ad15df11f17974877a2de3a01c07e934e9b28ce716e51c09a94962c7306d09be2e1e4b18a8c8762fd32"
 }
