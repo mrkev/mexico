@@ -11,6 +11,7 @@ import {
   GUADALAJARA,
   Place,
   queryAll,
+  TLAJOMULCO,
   TLAQUEPAQUE,
   TONALA,
   ZAPOPAN,
@@ -101,7 +102,7 @@ export function Guadalajara() {
               ZAPOPAN,
               ZAPOPAN2,
               TONALA,
-              // TLAJOMULCO,
+              TLAJOMULCO,
             ]);
             setPlaces(new Map(result));
             console.log("result", result);
